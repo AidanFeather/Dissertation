@@ -13,6 +13,7 @@
 #include "XRMotionControllerBase.h" // for FXRMotionControllerBase::RightHandSourceId
 #include "Engine/Engine.h"
 
+
 DEFINE_LOG_CATEGORY_STATIC(LogFPChar, Warning, All);
 
 //////////////////////////////////////////////////////////////////////////
@@ -94,6 +95,8 @@ void ADissertationCharacter::BeginPlay()
 
 	//Attach gun mesh component to Skeleton, doing it here because the skeleton is not yet created in the constructor
 	FP_Gun->AttachToComponent(Mesh1P, FAttachmentTransformRules(EAttachmentRule::SnapToTarget, true), TEXT("GripPoint"));
+
+	DesertBiome = Cast<ADesert>(UGameplayStatics::GetPlayerCharacter(GetWorld(), 0));
 
 	// Show or hide the two versions of the gun based on whether or not we're using motion controllers.
 	if (bUsingMotionControllers)
@@ -198,7 +201,7 @@ void ADissertationCharacter::WeaponDurability()
 	if (WeaponHealth >= 0.0f)
 	{
 		OnFire();
-		WeaponHealth--;
+		WeaponHealth = (WeaponHealth - DesertBiome->WeaponVariable);
 	}
 	else
 	{

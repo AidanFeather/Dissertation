@@ -3,6 +3,7 @@
 #pragma once
 
 #include "CoreMinimal.h"
+#include "Desert.h"
 #include "GameFramework/Character.h"
 #include "DissertationCharacter.generated.h"
 
@@ -79,6 +80,8 @@ public:
 	/** Whether to use motion controller location for aiming. */
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Gameplay)
 	uint32 bUsingMotionControllers : 1;
+
+	ADesert * DesertBiome;
 
 protected:
 	

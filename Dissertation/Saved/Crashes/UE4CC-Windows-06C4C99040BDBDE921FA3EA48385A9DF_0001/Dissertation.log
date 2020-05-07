@@ -1,0 +1,1416 @@
+﻿Log file open, 05/07/20 05:14:11
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: Dissertation
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 35 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.081860
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +0:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+Launching UnrealBuildTool... [D:/Program Files/Epic Games/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe -Mode=QueryTargets -Project="F:/01 - User Profiles/dudey/Documents/GitHub/Dissertation/Dissertation/Dissertation/Dissertation.uproject" -Output="F:/01 - User Profiles/dudey/Documents/GitHub/Dissertation/Dissertation/Dissertation/Intermediate/TargetInfo.json"]
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogInit: Build: ++UE4+Release-4.24-CL-11590370
+LogInit: Engine Version: 4.24.3-11590370+++UE4+Release-4.24
+LogInit: Compatible Engine Version: 4.24.0-10570792+++UE4+Release-4.24
+LogInit: Net CL: 10570792
+LogInit: OS: Windows 10 (Release 1909) (), CPU: AMD Ryzen 5 2600 Six-Core Processor            , GPU: NVIDIA GeForce GTX 1070
+LogInit: Compiled (64-bit): Feb 24 2020 15:39:18
+LogInit: Compiled with Visual C++: 19.16.27032.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.24
+LogInit: Command Line: 
+LogInit: Base Directory: D:/Program Files/Epic Games/UE_4.24/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 25
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 3
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 37
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 36
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 2
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 36
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 11
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 2
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 31
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 8
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 9
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 8
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2020.05.07-04.14.12:396][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2020.05.07-04.14.12:396][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2020.05.07-04.14.12:396][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [F:/01 - User Profiles/dudey/Documents/GitHub/Dissertation/Dissertation/Dissertation/Saved/Config/Windows/Engine.ini]
+[2020.05.07-04.14.12:396][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2020.05.07-04.14.12:396][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [F:/01 - User Profiles/dudey/Documents/GitHub/Dissertation/Dissertation/Dissertation/Saved/Config/Windows/Engine.ini]
+[2020.05.07-04.14.12:396][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [F:/01 - User Profiles/dudey/Documents/GitHub/Dissertation/Dissertation/Dissertation/Saved/Config/Windows/Engine.ini]
+[2020.05.07-04.14.12:396][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2020.05.07-04.14.12:396][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2020.05.07-04.14.12:396][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2020.05.07-04.14.12:396][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2020.05.07-04.14.12:396][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2020.05.07-04.14.12:396][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2020.05.07-04.14.12:396][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2020.05.07-04.14.12:396][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2020.05.07-04.14.12:397][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2020.05.07-04.14.12:397][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2020.05.07-04.14.12:397][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2020.05.07-04.14.12:397][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2020.05.07-04.14.12:397][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2020.05.07-04.14.12:397][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2020.05.07-04.14.12:397][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [F:/01 - User Profiles/dudey/Documents/GitHub/Dissertation/Dissertation/Dissertation/Saved/Config/Windows/Engine.ini]
+[2020.05.07-04.14.12:397][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2020.05.07-04.14.12:397][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2020.05.07-04.14.12:397][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2020.05.07-04.14.12:397][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2020.05.07-04.14.12:397][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2020.05.07-04.14.12:397][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2020.05.07-04.14.12:397][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2020.05.07-04.14.12:397][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2020.05.07-04.14.12:397][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2020.05.07-04.14.12:397][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2020.05.07-04.14.12:397][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2020.05.07-04.14.12:397][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2020.05.07-04.14.12:397][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2020.05.07-04.14.12:397][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [F:/01 - User Profiles/dudey/Documents/GitHub/Dissertation/Dissertation/Dissertation/Saved/Config/Windows/Engine.ini]
+[2020.05.07-04.14.12:397][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [F:/01 - User Profiles/dudey/Documents/GitHub/Dissertation/Dissertation/Dissertation/Saved/Config/Windows/Engine.ini]
+[2020.05.07-04.14.12:410][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [F:/01 - User Profiles/dudey/Documents/GitHub/Dissertation/Dissertation/Dissertation/Saved/Config/Windows/Scalability.ini]
+[2020.05.07-04.14.12:410][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.05.07-04.14.12:410][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.05.07-04.14.12:410][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [F:/01 - User Profiles/dudey/Documents/GitHub/Dissertation/Dissertation/Dissertation/Saved/Config/Windows/Scalability.ini]
+[2020.05.07-04.14.12:410][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.05.07-04.14.12:410][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [F:/01 - User Profiles/dudey/Documents/GitHub/Dissertation/Dissertation/Dissertation/Saved/Config/Windows/Scalability.ini]
+[2020.05.07-04.14.12:410][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.05.07-04.14.12:410][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.05.07-04.14.12:410][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.05.07-04.14.12:410][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.05.07-04.14.12:410][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.05.07-04.14.12:410][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.05.07-04.14.12:410][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.05.07-04.14.12:410][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.05.07-04.14.12:410][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.05.07-04.14.12:410][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.05.07-04.14.12:410][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.05.07-04.14.12:410][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.05.07-04.14.12:410][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.05.07-04.14.12:410][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.05.07-04.14.12:410][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.05.07-04.14.12:410][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.05.07-04.14.12:410][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.05.07-04.14.12:410][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.05.07-04.14.12:411][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [F:/01 - User Profiles/dudey/Documents/GitHub/Dissertation/Dissertation/Dissertation/Saved/Config/Windows/Scalability.ini]
+[2020.05.07-04.14.12:411][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.05.07-04.14.12:411][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.05.07-04.14.12:411][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.05.07-04.14.12:411][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.05.07-04.14.12:411][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.05.07-04.14.12:411][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.05.07-04.14.12:411][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.05.07-04.14.12:411][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.05.07-04.14.12:411][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.05.07-04.14.12:411][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.05.07-04.14.12:411][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.05.07-04.14.12:411][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.05.07-04.14.12:411][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.05.07-04.14.12:411][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.05.07-04.14.12:411][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.05.07-04.14.12:411][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.05.07-04.14.12:411][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.05.07-04.14.12:411][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.05.07-04.14.12:411][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.05.07-04.14.12:411][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.05.07-04.14.12:411][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.05.07-04.14.12:411][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.05.07-04.14.12:411][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.05.07-04.14.12:411][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.05.07-04.14.12:411][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.05.07-04.14.12:411][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.05.07-04.14.12:411][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.05.07-04.14.12:411][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.05.07-04.14.12:411][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.05.07-04.14.12:411][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.05.07-04.14.12:411][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [F:/01 - User Profiles/dudey/Documents/GitHub/Dissertation/Dissertation/Dissertation/Saved/Config/Windows/Scalability.ini]
+[2020.05.07-04.14.12:411][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.05.07-04.14.12:411][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.05.07-04.14.12:411][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.05.07-04.14.12:411][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.05.07-04.14.12:411][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.05.07-04.14.12:411][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.05.07-04.14.12:411][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.05.07-04.14.12:411][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.05.07-04.14.12:411][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.05.07-04.14.12:411][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [F:/01 - User Profiles/dudey/Documents/GitHub/Dissertation/Dissertation/Dissertation/Saved/Config/Windows/Scalability.ini]
+[2020.05.07-04.14.12:411][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.05.07-04.14.12:411][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.05.07-04.14.12:411][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.05.07-04.14.12:411][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.05.07-04.14.12:411][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.05.07-04.14.12:411][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.05.07-04.14.12:411][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.05.07-04.14.12:411][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.05.07-04.14.12:411][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.05.07-04.14.12:411][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.05.07-04.14.12:411][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.05.07-04.14.12:411][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.05.07-04.14.12:411][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.05.07-04.14.12:411][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.05.07-04.14.12:411][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.05.07-04.14.12:411][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.05.07-04.14.12:411][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.05.07-04.14.12:411][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.05.07-04.14.12:411][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.05.07-04.14.12:411][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.05.07-04.14.12:411][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.05.07-04.14.12:411][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.05.07-04.14.12:411][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.05.07-04.14.12:411][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.05.07-04.14.12:412][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.05.07-04.14.12:412][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.05.07-04.14.12:412][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [F:/01 - User Profiles/dudey/Documents/GitHub/Dissertation/Dissertation/Dissertation/Saved/Config/Windows/Scalability.ini]
+[2020.05.07-04.14.12:412][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.05.07-04.14.12:412][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.05.07-04.14.12:412][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [F:/01 - User Profiles/dudey/Documents/GitHub/Dissertation/Dissertation/Dissertation/Saved/Config/Windows/Scalability.ini]
+[2020.05.07-04.14.12:412][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.05.07-04.14.12:412][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.05.07-04.14.12:412][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.05.07-04.14.12:412][  0]LogInit: Selected Device Profile: [Windows]
+[2020.05.07-04.14.12:412][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.05.07-04.14.12:416][  0]LogHAL: Display: Platform has ~ 16 GB [17102729216 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.05.07-04.14.12:416][  0]LogInit: Going up to parent DeviceProfile []
+[2020.05.07-04.14.12:416][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [F:/01 - User Profiles/dudey/Documents/GitHub/Dissertation/Dissertation/Dissertation/Saved/Config/Windows/Scalability.ini]
+[2020.05.07-04.14.12:416][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.05.07-04.14.12:416][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.05.07-04.14.12:416][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [F:/01 - User Profiles/dudey/Documents/GitHub/Dissertation/Dissertation/Dissertation/Saved/Config/Windows/Scalability.ini]
+[2020.05.07-04.14.12:416][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.05.07-04.14.12:416][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [F:/01 - User Profiles/dudey/Documents/GitHub/Dissertation/Dissertation/Dissertation/Saved/Config/Windows/Scalability.ini]
+[2020.05.07-04.14.12:416][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.05.07-04.14.12:416][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.05.07-04.14.12:416][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.05.07-04.14.12:416][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.05.07-04.14.12:416][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.05.07-04.14.12:416][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.05.07-04.14.12:416][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.05.07-04.14.12:416][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.05.07-04.14.12:416][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.05.07-04.14.12:416][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.05.07-04.14.12:416][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.05.07-04.14.12:416][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.05.07-04.14.12:416][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.05.07-04.14.12:416][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.05.07-04.14.12:416][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.05.07-04.14.12:416][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.05.07-04.14.12:416][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.05.07-04.14.12:416][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.05.07-04.14.12:416][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [F:/01 - User Profiles/dudey/Documents/GitHub/Dissertation/Dissertation/Dissertation/Saved/Config/Windows/Scalability.ini]
+[2020.05.07-04.14.12:416][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.05.07-04.14.12:416][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.05.07-04.14.12:416][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.05.07-04.14.12:416][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.05.07-04.14.12:416][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.05.07-04.14.12:416][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.05.07-04.14.12:416][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.05.07-04.14.12:416][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.05.07-04.14.12:416][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.05.07-04.14.12:416][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.05.07-04.14.12:416][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.05.07-04.14.12:416][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.05.07-04.14.12:416][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.05.07-04.14.12:416][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.05.07-04.14.12:416][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.05.07-04.14.12:416][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.05.07-04.14.12:416][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.05.07-04.14.12:416][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.05.07-04.14.12:416][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.05.07-04.14.12:416][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.05.07-04.14.12:416][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.05.07-04.14.12:416][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.05.07-04.14.12:416][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.05.07-04.14.12:416][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.05.07-04.14.12:416][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.05.07-04.14.12:416][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.05.07-04.14.12:416][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.05.07-04.14.12:416][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.05.07-04.14.12:416][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.05.07-04.14.12:416][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.05.07-04.14.12:416][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [F:/01 - User Profiles/dudey/Documents/GitHub/Dissertation/Dissertation/Dissertation/Saved/Config/Windows/Scalability.ini]
+[2020.05.07-04.14.12:416][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.05.07-04.14.12:417][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.05.07-04.14.12:417][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.05.07-04.14.12:417][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.05.07-04.14.12:417][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.05.07-04.14.12:417][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.05.07-04.14.12:417][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.05.07-04.14.12:417][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.05.07-04.14.12:417][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.05.07-04.14.12:417][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [F:/01 - User Profiles/dudey/Documents/GitHub/Dissertation/Dissertation/Dissertation/Saved/Config/Windows/Scalability.ini]
+[2020.05.07-04.14.12:417][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.05.07-04.14.12:417][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.05.07-04.14.12:417][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.05.07-04.14.12:417][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.05.07-04.14.12:417][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.05.07-04.14.12:417][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.05.07-04.14.12:417][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.05.07-04.14.12:417][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.05.07-04.14.12:417][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.05.07-04.14.12:417][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.05.07-04.14.12:417][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.05.07-04.14.12:417][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.05.07-04.14.12:417][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.05.07-04.14.12:417][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.05.07-04.14.12:417][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.05.07-04.14.12:417][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.05.07-04.14.12:417][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.05.07-04.14.12:417][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.05.07-04.14.12:417][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.05.07-04.14.12:417][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.05.07-04.14.12:417][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.05.07-04.14.12:417][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.05.07-04.14.12:417][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.05.07-04.14.12:417][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.05.07-04.14.12:417][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.05.07-04.14.12:417][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.05.07-04.14.12:417][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [F:/01 - User Profiles/dudey/Documents/GitHub/Dissertation/Dissertation/Dissertation/Saved/Config/Windows/Scalability.ini]
+[2020.05.07-04.14.12:417][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.05.07-04.14.12:417][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.05.07-04.14.12:417][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [F:/01 - User Profiles/dudey/Documents/GitHub/Dissertation/Dissertation/Dissertation/Saved/Config/Windows/Scalability.ini]
+[2020.05.07-04.14.12:417][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.05.07-04.14.12:417][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.05.07-04.14.12:417][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.05.07-04.14.12:417][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2020.05.07-04.14.12:417][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2020.05.07-04.14.12:418][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2020.05.07-04.14.12:418][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [F:/01 - User Profiles/dudey/Documents/GitHub/Dissertation/Dissertation/Dissertation/Saved/Config/Windows/Engine.ini]
+[2020.05.07-04.14.12:418][  0]LogInit: Computer: AIDANS-PC
+[2020.05.07-04.14.12:418][  0]LogInit: User: dudey
+[2020.05.07-04.14.12:418][  0]LogInit: CPU Page size=4096, Cores=6
+[2020.05.07-04.14.12:418][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.05.07-04.14.12:418][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2020.05.07-04.14.12:418][  0]LogMemory: Platform Memory Stats for Windows
+[2020.05.07-04.14.12:418][  0]LogMemory: Process Physical Memory: 106.45 MB used, 106.45 MB peak
+[2020.05.07-04.14.12:418][  0]LogMemory: Process Virtual Memory: 101.80 MB used, 101.80 MB peak
+[2020.05.07-04.14.12:418][  0]LogMemory: Physical Memory: 7903.53 MB used,  8406.90 MB free, 16310.43 MB total
+[2020.05.07-04.14.12:418][  0]LogMemory: Virtual Memory: 5124.96 MB used,  134212600.00 MB free, 134217728.00 MB total
+[2020.05.07-04.14.12:421][  0]LogWindows: WindowsPlatformFeatures enabled
+[2020.05.07-04.14.12:446][  0]LogInit: Using OS detected language (en-GB).
+[2020.05.07-04.14.12:446][  0]LogInit: Using OS detected locale (en-GB).
+[2020.05.07-04.14.12:448][  0]LogTextLocalizationManager: No specific localization for 'en-GB' exists, so the 'en' localization will be used.
+[2020.05.07-04.14.12:599][  0]LogInit: Setting process to per monitor DPI aware
+[2020.05.07-04.14.12:651][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.05.07-04.14.12:651][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.05.07-04.14.12:992][  0]LogHMD: Failed to initialize OpenVR with code 102
+[2020.05.07-04.14.12:992][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2020.05.07-04.14.12:992][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2020.05.07-04.14.12:992][  0]LogD3D11RHI: D3D11 adapters:
+[2020.05.07-04.14.13:065][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2020.05.07-04.14.13:065][  0]LogD3D11RHI:       8088/0/8155 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:3, VendorId:0x10de
+[2020.05.07-04.14.13:068][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.05.07-04.14.13:068][  0]LogD3D11RHI:       0/0/8155 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.05.07-04.14.13:068][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.05.07-04.14.13:077][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.05.07-04.14.13:077][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
+[2020.05.07-04.14.13:077][  0]LogWindows: EnumDisplayDevices:
+[2020.05.07-04.14.13:077][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2020.05.07-04.14.13:077][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:1)
+[2020.05.07-04.14.13:078][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:1)
+[2020.05.07-04.14.13:078][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2020.05.07-04.14.13:078][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2020.05.07-04.14.13:078][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2020.05.07-04.14.13:078][  0]LogD3D11RHI:   Driver Version: 442.59 (internal:26.21.14.4259, unified:442.59)
+[2020.05.07-04.14.13:078][  0]LogD3D11RHI:      Driver Date: 3-4-2020
+[2020.05.07-04.14.13:078][  0]LogRHI: Texture pool is 5661 MB (70% of 8088 MB)
+[2020.05.07-04.14.13:135][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2020.05.07-04.14.13:135][  0]LogD3D11RHI: Async texture creation enabled
+[2020.05.07-04.14.13:162][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2020.05.07-04.14.13:483][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2020.05.07-04.14.13:518][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2020.05.07-04.14.13:518][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2020.05.07-04.14.13:518][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ATC'
+[2020.05.07-04.14.13:518][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2020.05.07-04.14.13:518][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1'
+[2020.05.07-04.14.13:518][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1a'
+[2020.05.07-04.14.13:518][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2020.05.07-04.14.13:518][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_PVRTC'
+[2020.05.07-04.14.13:518][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2020.05.07-04.14.13:518][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2020.05.07-04.14.13:518][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ATCClient'
+[2020.05.07-04.14.13:518][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2020.05.07-04.14.13:518][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1Client'
+[2020.05.07-04.14.13:518][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1aClient'
+[2020.05.07-04.14.13:518][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2020.05.07-04.14.13:518][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_PVRTCClient'
+[2020.05.07-04.14.13:518][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2020.05.07-04.14.13:518][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2020.05.07-04.14.13:540][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2020.05.07-04.14.13:540][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2020.05.07-04.14.13:549][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2020.05.07-04.14.13:557][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2020.05.07-04.14.13:566][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2020.05.07-04.14.13:575][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2020.05.07-04.14.13:583][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2020.05.07-04.14.13:592][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2020.05.07-04.14.13:621][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2020.05.07-04.14.13:621][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2020.05.07-04.14.13:639][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2020.05.07-04.14.13:639][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2020.05.07-04.14.13:647][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2020.05.07-04.14.13:657][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2020.05.07-04.14.13:665][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2020.05.07-04.14.13:674][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2020.05.07-04.14.13:674][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.05.07-04.14.13:678][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2020.05.07-04.14.13:704][  0]LogShaderCompilers: Guid format shader working directory is -25 characters bigger than the processId version (F:/01 - User Profiles/dudey/Documents/GitHub/Dissertation/Dissertation/Dissertation/Intermediate/Shaders/WorkingDirectory/17748/).
+[2020.05.07-04.14.13:705][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'F:/01 - User Profiles/dudey/AppData/Local/Temp/UnrealShaderWorkingDir/20F7A4B641F7CD13E2B8A6A8C7868A4E/'.
+[2020.05.07-04.14.13:705][  0]LogXGEController: Cleaning working directory: F:/01 - User Profiles/dudey/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2020.05.07-04.14.13:706][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.05.07-04.14.13:706][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.05.07-04.14.13:706][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.05.07-04.14.14:485][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.05.07-04.14.14:535][  0]LogDerivedDataCache: Loaded boot cache 0.05s 81MB F:/01 - User Profiles/dudey/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc.
+[2020.05.07-04.14.14:535][  0]LogDerivedDataCache: Display: Loaded Boot cache: F:/01 - User Profiles/dudey/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc
+[2020.05.07-04.14.14:535][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file F:/01 - User Profiles/dudey/Documents/GitHub/Dissertation/Dissertation/Dissertation/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.05.07-04.14.14:535][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.05.07-04.14.14:535][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file F:/01 - User Profiles/dudey/Documents/GitHub/Dissertation/Dissertation/Dissertation/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.05.07-04.14.14:535][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.05.07-04.14.14:546][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.05.07-04.14.14:546][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.05.07-04.14.14:546][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2020.05.07-04.14.14:547][  0]LogDerivedDataCache: Using Local data cache path F:/01 - User Profiles/dudey/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.05.07-04.14.14:547][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.05.07-04.14.14:547][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.05.07-04.14.14:572][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2020.05.07-04.14.14:575][  0]LogSlate: Using FreeType 2.10.0
+[2020.05.07-04.14.14:576][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.05.07-04.14.14:657][  0]LogAssetRegistry: FAssetRegistry took 0.0025 seconds to start up
+[2020.05.07-04.14.14:969][  0]LogInit: Selected Device Profile: [Windows]
+[2020.05.07-04.14.15:136][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.05.07-04.14.15:136][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2020.05.07-04.14.15:136][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.05.07-04.14.15:136][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2020.05.07-04.14.15:136][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2020.05.07-04.14.15:158][  0]LogNetVersion: Dissertation 1.0.0, NetCL: 10570792, EngineNetVer: 13, GameNetVer: 0 (Checksum: 3588521286)
+[2020.05.07-04.14.16:559][  0]LogPackageLocalizationCache: Processed 10 localized package path(s) for 1 prioritized culture(s) in 0.038925 seconds
+[2020.05.07-04.14.16:568][  0]LogUObjectArray: 46750 objects as part of root set at end of initial load.
+[2020.05.07-04.14.16:568][  0]LogUObjectAllocator: 8137160 out of 0 bytes used by permanent object pool.
+[2020.05.07-04.14.16:568][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.05.07-04.14.17:010][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.05.07-04.14.17:013][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.05.07-04.14.17:250][  0]SourceControl: Source control is disabled
+[2020.05.07-04.14.17:250][  0]SourceControl: Source control is disabled
+[2020.05.07-04.14.17:251][  0]SourceControl: Source control is disabled
+[2020.05.07-04.14.17:252][  0]SourceControl: Source control is disabled
+[2020.05.07-04.14.17:253][  0]SourceControl: Source control is disabled
+[2020.05.07-04.14.17:371][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.05.07-04.14.17:385][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.05.07-04.14.17:385][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.05.07-04.14.17:479][  0]LogOcInput: OculusInput pre-init called
+[2020.05.07-04.14.17:488][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2020.05.07-04.14.17:488][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2020.05.07-04.14.17:560][  0]LogEngine: Initializing Engine...
+[2020.05.07-04.14.17:563][  0]LogHMD: Failed to initialize OpenVR with code 102
+[2020.05.07-04.14.17:564][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2020.05.07-04.14.17:911][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.05.07-04.14.17:917][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.05.07-04.14.17:927][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.05.07-04.14.17:927][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.05.07-04.14.17:927][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.05.07-04.14.17:927][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.05.07-04.14.17:927][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.05.07-04.14.17:927][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.05.07-04.14.17:927][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.05.07-04.14.17:928][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.05.07-04.14.17:928][  0]LogAudio: Display: Using built-in audio occlusion.
+[2020.05.07-04.14.17:928][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2020.05.07-04.14.18:009][  0]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.05.07-04.14.18:009][  0]LogAudioMixer: Display: Name: Speakers (Realtek High Definition Audio)
+[2020.05.07-04.14.18:009][  0]LogAudioMixer: Display: Is Default: Yes
+[2020.05.07-04.14.18:009][  0]LogAudioMixer: Display: Sample Rate: 48000
+[2020.05.07-04.14.18:009][  0]LogAudioMixer: Display: Channel Count Used: 2
+[2020.05.07-04.14.18:009][  0]LogAudioMixer: Display: Device Channel Count: 2
+[2020.05.07-04.14.18:009][  0]LogAudioMixer: Display: Channel Order:
+[2020.05.07-04.14.18:009][  0]LogAudioMixer: Display: 0: FrontLeft
+[2020.05.07-04.14.18:009][  0]LogAudioMixer: Display: 1: FrontRight
+[2020.05.07-04.14.18:061][  0]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2020.05.07-04.14.18:066][  0]LogInit: FAudioDevice initialized.
+[2020.05.07-04.14.18:066][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.05.07-04.14.19:277][  0]LogDerivedDataCache: Saved boot cache 1.21s 81MB F:/01 - User Profiles/dudey/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc.
+[2020.05.07-04.14.19:277][  0]LogInit: Texture streaming: Enabled
+[2020.05.07-04.14.19:289][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.05.07-04.14.19:289][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2020.05.07-04.14.19:293][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2020.05.07-04.14.19:333][  0]LogInit: Transaction tracking system initialized
+[2020.05.07-04.14.19:344][  0]BlueprintLog: New page: Editor Load
+[2020.05.07-04.14.19:381][  0]LocalizationService: Localization service is disabled
+[2020.05.07-04.14.19:691][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.05.07-04.14.19:691][  0]LogCook: Display: Mobile HDR setting 1
+[2020.05.07-04.14.19:793][  0]LogFileCache: Scanning file cache for directory 'F:/01 - User Profiles/dudey/Documents/GitHub/Dissertation/Dissertation/Dissertation/Content/' took 0.02s
+[2020.05.07-04.14.20:710][  0]SourceControl: Source control is disabled
+[2020.05.07-04.14.20:710][  0]Cmd: MAP LOAD FILE="F:/01 - User Profiles/dudey/Documents/GitHub/Dissertation/Dissertation/Dissertation/Content/FirstPersonCPP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.05.07-04.14.20:711][  0]LightingResults: New page: Lighting Build
+[2020.05.07-04.14.20:712][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.05.07-04.14.20:712][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.07-04.14.20:712][  0]MapCheck: New page: Map Check
+[2020.05.07-04.14.20:712][  0]LightingResults: New page: Lighting Build
+[2020.05.07-04.14.20:746][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.07ms
+[2020.05.07-04.14.20:848][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2020.05.07-04.14.20:854][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.05.07-04.14.20:887][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.04ms
+[2020.05.07-04.14.20:887][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.05.07-04.14.20:887][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.36ms to complete.
+[2020.05.07-04.14.20:887][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 0.177
+[2020.05.07-04.14.21:036][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.07-04.14.21:043][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.07-04.14.21:049][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.07-04.14.21:055][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.07-04.14.21:062][  0]LogCollectionManager: Loaded 0 collections in 0.002109 seconds
+[2020.05.07-04.14.21:077][  0]LogFileCache: Scanning file cache for directory 'F:/01 - User Profiles/dudey/Documents/GitHub/Dissertation/Dissertation/Dissertation/Saved/Collections/' took 0.00s
+[2020.05.07-04.14.21:077][  0]LogFileCache: Scanning file cache for directory 'F:/01 - User Profiles/dudey/Documents/GitHub/Dissertation/Dissertation/Dissertation/Content/Developers/dudey/Collections/' took 0.00s
+[2020.05.07-04.14.21:077][  0]LogFileCache: Scanning file cache for directory 'F:/01 - User Profiles/dudey/Documents/GitHub/Dissertation/Dissertation/Dissertation/Content/Collections/' took 0.00s
+[2020.05.07-04.14.21:077][  0]LogContentBrowser: Native class hierarchy populated in 0.0099 seconds. Added 3020 classes and 719 folders.
+[2020.05.07-04.14.21:082][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2020.05.07-04.14.21:240][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2020.05.07-04.14.21:243][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 2 classes and 3 folders.
+[2020.05.07-04.14.22:409][  0]LogSlate: Took 0.000510 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.05.07-04.14.22:411][  0]LogSlate: Took 0.000341 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.05.07-04.14.22:416][  0]LogSlate: Took 0.000329 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.05.07-04.14.22:522][  0]LogRenderer: Reallocating scene render targets to support 1616x808 Format 10 NumSamples 1 (Frame:1).
+[2020.05.07-04.14.22:644][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2020.05.07-04.14.22:644][  0]LogLoad: (Engine Initialization) Total time: 15.79 seconds
+[2020.05.07-04.14.22:644][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.05.07-04.14.22:720][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.05.07-04.14.22:771][  1]LogAssetRegistry: Asset discovery search completed in 8.1145 seconds
+[2020.05.07-04.14.22:774][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000008 seconds (updated 0 objects)
+[2020.05.07-04.15.03:631][667]LogSlate: Took 0.000355 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.05.07-04.15.03:682][667]LogSlate: WidgetSwitcher ('None') active index changed to -1
+[2020.05.07-04.15.03:682][667]LogSlate: WidgetSwitcher ('None') active index changed to 0
+[2020.05.07-04.15.03:734][667]LogSlate: Took 0.000388 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2020.05.07-04.15.17:932][752]LogSlate: WidgetSwitcher ('None') active index changed to 1
+[2020.05.07-04.15.29:868][ 21]Running D:/Program Files/Epic Games/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe  -projectfiles -project="F:/01 - User Profiles/dudey/Documents/GitHub/Dissertation/Dissertation/Dissertation/Dissertation.uproject" -game -rocket -progress
+[2020.05.07-04.15.30:174][ 21]Discovering modules, targets and source code for project...
+[2020.05.07-04.15.32:899][ 21]Binding IntelliSense data...
+[2020.05.07-04.15.35:229][ 21]Binding IntelliSense data... 100%
+[2020.05.07-04.15.35:229][ 21]Writing project files...
+[2020.05.07-04.15.42:387][ 21]Writing project files... 100%
+[2020.05.07-04.15.42:489][ 21]LogVSAccessor: Warning: Couldn't access Visual Studio
+[2020.05.07-04.15.42:493][ 21]Candidate modules for hot reload:
+[2020.05.07-04.15.42:493][ 21]  Dissertation
+[2020.05.07-04.15.42:494][ 21]Launching UnrealBuildTool... [D:/Program Files/Epic Games/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Dissertation,7523 Win64 Development -TargetType=Editor -Project="F:/01 - User Profiles/dudey/Documents/GitHub/Dissertation/Dissertation/Dissertation/Dissertation.uproject" "F:/01 - User Profiles/dudey/Documents/GitHub/Dissertation/Dissertation/Dissertation/Dissertation.uproject"  -IgnoreJunk]
+[2020.05.07-04.16.30:956][ 21]CompilerResultsLog: New page: Compilation - 7 May 2020, 06:16:30
+[2020.05.07-04.16.30:956][ 21]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (F:\01 - User Profiles\dudey\Documents\GitHub\Dissertation\Dissertation).
+[2020.05.07-04.16.30:956][ 21]CompilerResultsLog: Creating makefile for DissertationEditor (no existing makefile)
+[2020.05.07-04.16.30:956][ 21]CompilerResultsLog: Parsing headers for DissertationEditor
+[2020.05.07-04.16.30:956][ 21]CompilerResultsLog:   Running UnrealHeaderTool "F:\01 - User Profiles\dudey\Documents\GitHub\Dissertation\Dissertation\Dissertation\Dissertation.uproject" "F:\01 - User Profiles\dudey\Documents\GitHub\Dissertation\Dissertation\Dissertation\Intermediate\Build\Win64\DissertationEditor\Development\DissertationEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2020.05.07-04.16.30:956][ 21]CompilerResultsLog: Reflection code generated for DissertationEditor in 8.8690422 seconds
+[2020.05.07-04.16.30:956][ 21]CompilerResultsLog: Building DissertationEditor...
+[2020.05.07-04.16.30:956][ 21]CompilerResultsLog: Using Visual Studio 2019 14.25.28612 toolchain (D:\VisualStudio\VC\Tools\MSVC\14.25.28610) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.05.07-04.16.30:956][ 21]CompilerResultsLog: Building 19 actions with 12 processes...
+[2020.05.07-04.16.30:956][ 21]CompilerResultsLog:   [1/19] Default.rc2
+[2020.05.07-04.16.30:956][ 21]CompilerResultsLog:   [2/19] SharedPCH.Engine.ShadowErrors.cpp
+[2020.05.07-04.16.30:956][ 21]CompilerResultsLog:   [3/19] Dissertation.cpp
+[2020.05.07-04.16.30:956][ 21]CompilerResultsLog:   [4/19] Target.gen.cpp
+[2020.05.07-04.16.30:956][ 21]CompilerResultsLog:   [5/19] Desert.cpp
+[2020.05.07-04.16.30:956][ 21]CompilerResultsLog:   [6/19] DissertationProjectile.gen.cpp
+[2020.05.07-04.16.30:956][ 21]CompilerResultsLog:   [7/19] Desert.gen.cpp
+[2020.05.07-04.16.30:956][ 21]CompilerResultsLog:   [8/19] DissertationHUD.gen.cpp
+[2020.05.07-04.16.30:956][ 21]CompilerResultsLog:   [9/19] DissertationProjectile.cpp
+[2020.05.07-04.16.30:956][ 21]CompilerResultsLog:   [10/19] DissertationGameMode.gen.cpp
+[2020.05.07-04.16.30:956][ 21]CompilerResultsLog:   [11/19] Dissertation.init.gen.cpp
+[2020.05.07-04.16.30:956][ 21]CompilerResultsLog:   [12/19] DissertationGameMode.cpp
+[2020.05.07-04.16.30:956][ 21]CompilerResultsLog:   [13/19] DissertationHUD.cpp
+[2020.05.07-04.16.30:956][ 21]CompilerResultsLog:   [14/19] DissertationCharacter.gen.cpp
+[2020.05.07-04.16.30:956][ 21]CompilerResultsLog:   [15/19] Target.cpp
+[2020.05.07-04.16.30:956][ 21]CompilerResultsLog:   [16/19] DissertationCharacter.cpp
+[2020.05.07-04.16.30:956][ 21]CompilerResultsLog:   [17/19] UE4Editor-Dissertation-7523.lib
+[2020.05.07-04.16.30:956][ 21]CompilerResultsLog:      Creating library F:\01 - User Profiles\dudey\Documents\GitHub\Dissertation\Dissertation\Dissertation\Intermediate\Build\Win64\UE4Editor\Development\Dissertation\UE4Editor-Dissertation-7523.lib and object F:\01 - User Profiles\dudey\Documents\GitHub\Dissertation\Dissertation\Dissertation\Intermediate\Build\Win64\UE4Editor\Development\Dissertation\UE4Editor-Dissertation-7523.exp
+[2020.05.07-04.16.30:956][ 21]CompilerResultsLog:   [18/19] UE4Editor-Dissertation-7523.dll
+[2020.05.07-04.16.30:956][ 21]CompilerResultsLog:      Creating library F:\01 - User Profiles\dudey\Documents\GitHub\Dissertation\Dissertation\Dissertation\Intermediate\Build\Win64\UE4Editor\Development\Dissertation\UE4Editor-Dissertation-7523.suppressed.lib and object F:\01 - User Profiles\dudey\Documents\GitHub\Dissertation\Dissertation\Dissertation\Intermediate\Build\Win64\UE4Editor\Development\Dissertation\UE4Editor-Dissertation-7523.suppressed.exp
+[2020.05.07-04.16.30:956][ 21]CompilerResultsLog:   [19/19] DissertationEditor.target
+[2020.05.07-04.16.30:956][ 21]CompilerResultsLog: Total time in Parallel executor: 36.14 seconds
+[2020.05.07-04.16.30:956][ 21]CompilerResultsLog: Total execution time: 48.37 seconds
+[2020.05.07-04.16.30:956][ 21]LogMainFrame: MainFrame: Module compiling took 48.467 seconds
+[2020.05.07-04.16.30:989][ 21]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2020.05.07-04.16.31:007][ 21]LogClass: Could not find existing class Desert in package /Script/Dissertation for HotReload, assuming new class
+[2020.05.07-04.16.31:021][ 21]LogContentBrowser: Native class hierarchy updated for 'Dissertation' in 0.0007 seconds. Added 6 classes and 2 folders.
+[2020.05.07-04.16.31:024][ 21]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2020.05.07-04.16.31:094][ 21]LogUObjectHash: Compacting FUObjectHashTables data took   1.30ms
+[2020.05.07-04.16.31:108][ 21]LogContentBrowser: Native class hierarchy populated in 0.0093 seconds. Added 3023 classes and 722 folders.
+[2020.05.07-04.16.31:108][ 21]Display: HotReload took 48.6s.
+[2020.05.07-04.16.31:108][ 21]Warning: HotReload operation took 48.6s.
+[2020.05.07-04.16.31:161][ 21]LogSlate: Window 'Add C++ Class' being destroyed
+[2020.05.07-04.16.31:172][ 21]LogHotReload: New module detected: UE4Editor-Dissertation-7523.dll
+[2020.05.07-04.16.31:281][ 22]LogHotReload: Starting Hot-Reload from IDE
+[2020.05.07-04.16.31:523][ 22]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2020.05.07-04.16.31:528][ 22]LogContentBrowser: Native class hierarchy updated for 'Dissertation' in 0.0007 seconds. Added 6 classes and 2 folders.
+[2020.05.07-04.16.31:531][ 22]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2020.05.07-04.16.31:563][ 22]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2020.05.07-04.16.31:577][ 22]LogContentBrowser: Native class hierarchy populated in 0.0092 seconds. Added 3023 classes and 722 folders.
+[2020.05.07-04.16.31:581][ 22]Display: HotReload took  0.3s.
+[2020.05.07-04.22.42:697][ 72]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall1)
+[2020.05.07-04.38.51:390][ 15]Candidate modules for hot reload:
+[2020.05.07-04.38.51:390][ 15]  Dissertation
+[2020.05.07-04.38.51:390][ 15]Launching UnrealBuildTool... [D:/Program Files/Epic Games/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Dissertation,2884 Win64 Development -TargetType=Editor -Project="F:/01 - User Profiles/dudey/Documents/GitHub/Dissertation/Dissertation/Dissertation/Dissertation.uproject" "F:/01 - User Profiles/dudey/Documents/GitHub/Dissertation/Dissertation/Dissertation/Dissertation.uproject"  -IgnoreJunk]
+[2020.05.07-04.38.51:398][ 15]Warning: Starting HotReload took  0.0s.
+[2020.05.07-04.39.00:351][547]CompilerResultsLog: New page: Compilation - 7 May 2020, 06:39:00
+[2020.05.07-04.39.00:351][547]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (F:\01 - User Profiles\dudey\Documents\GitHub\Dissertation\Dissertation).
+[2020.05.07-04.39.00:351][547]CompilerResultsLog: Parsing headers for DissertationEditor
+[2020.05.07-04.39.00:351][547]CompilerResultsLog:   Running UnrealHeaderTool "F:\01 - User Profiles\dudey\Documents\GitHub\Dissertation\Dissertation\Dissertation\Dissertation.uproject" "F:\01 - User Profiles\dudey\Documents\GitHub\Dissertation\Dissertation\Dissertation\Intermediate\Build\Win64\DissertationEditor\Development\DissertationEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2020.05.07-04.39.00:351][547]CompilerResultsLog: Error: F:/01 - User Profiles/dudey/Documents/GitHub/Dissertation/Dissertation/Dissertation/Source/Dissertation/Desert.h(8) : Error: #include found after .generated.h file - the .generated.h file should always be the last #include in a header
+[2020.05.07-04.39.00:351][547]LogMainFrame: MainFrame: Module compiling took 8.967 seconds
+[2020.05.07-04.39.00:351][547]Warning: HotReload failed, recompile failed
+[2020.05.07-04.40.50:943][ 78]Candidate modules for hot reload:
+[2020.05.07-04.40.50:943][ 78]  Dissertation
+[2020.05.07-04.40.50:944][ 78]Launching UnrealBuildTool... [D:/Program Files/Epic Games/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Dissertation,4747 Win64 Development -TargetType=Editor -Project="F:/01 - User Profiles/dudey/Documents/GitHub/Dissertation/Dissertation/Dissertation/Dissertation.uproject" "F:/01 - User Profiles/dudey/Documents/GitHub/Dissertation/Dissertation/Dissertation/Dissertation.uproject"  -IgnoreJunk]
+[2020.05.07-04.40.50:951][ 78]Warning: Starting HotReload took  0.0s.
+[2020.05.07-04.41.07:389][273]CompilerResultsLog: New page: Compilation - 7 May 2020, 06:41:07
+[2020.05.07-04.41.07:389][273]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (F:\01 - User Profiles\dudey\Documents\GitHub\Dissertation\Dissertation).
+[2020.05.07-04.41.07:389][273]CompilerResultsLog: Parsing headers for DissertationEditor
+[2020.05.07-04.41.07:389][273]CompilerResultsLog:   Running UnrealHeaderTool "F:\01 - User Profiles\dudey\Documents\GitHub\Dissertation\Dissertation\Dissertation\Dissertation.uproject" "F:\01 - User Profiles\dudey\Documents\GitHub\Dissertation\Dissertation\Dissertation\Intermediate\Build\Win64\DissertationEditor\Development\DissertationEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2020.05.07-04.41.07:389][273]CompilerResultsLog: Reflection code generated for DissertationEditor in 9.9931246 seconds
+[2020.05.07-04.41.07:389][273]CompilerResultsLog: Building DissertationEditor...
+[2020.05.07-04.41.07:389][273]CompilerResultsLog: Using Visual Studio 2019 14.25.28612 toolchain (D:\VisualStudio\VC\Tools\MSVC\14.25.28610) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.05.07-04.41.07:389][273]CompilerResultsLog: Building 6 actions with 12 processes...
+[2020.05.07-04.41.07:389][273]CompilerResultsLog:   [1/6] Desert.cpp
+[2020.05.07-04.41.07:389][273]CompilerResultsLog:    F:\01 - User Profiles\dudey\Documents\GitHub\Dissertation\Dissertation\Dissertation\Source\Dissertation\Desert.cpp(15) : error C2065: 'OnActorOverlapBegin': undeclared identifier
+[2020.05.07-04.41.07:389][273]CompilerResultsLog:    F:\01 - User Profiles\dudey\Documents\GitHub\Dissertation\Dissertation\Dissertation\Source\Dissertation\Desert.cpp(16) : error C2065: 'OnActorOnOverlapEnd': undeclared identifier
+[2020.05.07-04.41.07:389][273]CompilerResultsLog:    F:\01 - User Profiles\dudey\Documents\GitHub\Dissertation\Dissertation\Dissertation\Source\Dissertation\Desert.cpp(23) : error C3867: 'AActor::GetActorLocation': non-standard syntax; use '&' to create a pointer to member
+[2020.05.07-04.41.07:389][273]CompilerResultsLog:    F:\01 - User Profiles\dudey\Documents\GitHub\Dissertation\Dissertation\Dissertation\Source\Dissertation\Desert.cpp(23) : error C3867: 'FBox::GetExtent': non-standard syntax; use '&' to create a pointer to member
+[2020.05.07-04.41.07:389][273]CompilerResultsLog:    F:\01 - User Profiles\dudey\Documents\GitHub\Dissertation\Dissertation\Dissertation\Source\Dissertation\Desert.cpp(32) : error C2065: 'Gengine': undeclared identifier
+[2020.05.07-04.41.07:389][273]CompilerResultsLog:    F:\01 - User Profiles\dudey\Documents\GitHub\Dissertation\Dissertation\Dissertation\Source\Dissertation\Desert.cpp(33) : error C4477: 'printf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'const TCHAR *'
+[2020.05.07-04.41.07:389][273]CompilerResultsLog:   F:\01 - User Profiles\dudey\Documents\GitHub\Dissertation\Dissertation\Dissertation\Source\Dissertation\Desert.cpp(33): note: consider using '%ls' in the format string
+[2020.05.07-04.41.07:389][273]CompilerResultsLog:   F:\01 - User Profiles\dudey\Documents\GitHub\Dissertation\Dissertation\Dissertation\Source\Dissertation\Desert.cpp(33): note: consider using '%lls' in the format string
+[2020.05.07-04.41.07:389][273]CompilerResultsLog:   F:\01 - User Profiles\dudey\Documents\GitHub\Dissertation\Dissertation\Dissertation\Source\Dissertation\Desert.cpp(33): note: consider using '%Ls' in the format string
+[2020.05.07-04.41.07:389][273]CompilerResultsLog:   F:\01 - User Profiles\dudey\Documents\GitHub\Dissertation\Dissertation\Dissertation\Source\Dissertation\Desert.cpp(33): note: consider using '%ws' in the format string
+[2020.05.07-04.41.07:389][273]CompilerResultsLog:    F:\01 - User Profiles\dudey\Documents\GitHub\Dissertation\Dissertation\Dissertation\Source\Dissertation\Desert.cpp(41) : error C2065: 'Gengine': undeclared identifier
+[2020.05.07-04.41.07:389][273]CompilerResultsLog:    F:\01 - User Profiles\dudey\Documents\GitHub\Dissertation\Dissertation\Dissertation\Source\Dissertation\Desert.cpp(42) : error C4477: 'printf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'const TCHAR *'
+[2020.05.07-04.41.07:389][273]CompilerResultsLog:   F:\01 - User Profiles\dudey\Documents\GitHub\Dissertation\Dissertation\Dissertation\Source\Dissertation\Desert.cpp(42): note: consider using '%ls' in the format string
+[2020.05.07-04.41.07:389][273]CompilerResultsLog:   F:\01 - User Profiles\dudey\Documents\GitHub\Dissertation\Dissertation\Dissertation\Source\Dissertation\Desert.cpp(42): note: consider using '%lls' in the format string
+[2020.05.07-04.41.07:389][273]CompilerResultsLog:   F:\01 - User Profiles\dudey\Documents\GitHub\Dissertation\Dissertation\Dissertation\Source\Dissertation\Desert.cpp(42): note: consider using '%Ls' in the format string
+[2020.05.07-04.41.07:389][273]CompilerResultsLog:   F:\01 - User Profiles\dudey\Documents\GitHub\Dissertation\Dissertation\Dissertation\Source\Dissertation\Desert.cpp(42): note: consider using '%ws' in the format string
+[2020.05.07-04.41.07:389][273]CompilerResultsLog:   [2/6] Dissertation.init.gen.cpp
+[2020.05.07-04.41.07:389][273]CompilerResultsLog:   [3/6] Desert.gen.cpp
+[2020.05.07-04.41.07:389][273]LogMainFrame: MainFrame: Module compiling took 16.451 seconds
+[2020.05.07-04.41.07:390][273]Warning: HotReload failed, recompile failed
+[2020.05.07-04.41.52:512][ 94]Candidate modules for hot reload:
+[2020.05.07-04.41.52:512][ 94]  Dissertation
+[2020.05.07-04.41.52:512][ 94]Launching UnrealBuildTool... [D:/Program Files/Epic Games/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Dissertation,5081 Win64 Development -TargetType=Editor -Project="F:/01 - User Profiles/dudey/Documents/GitHub/Dissertation/Dissertation/Dissertation/Dissertation.uproject" "F:/01 - User Profiles/dudey/Documents/GitHub/Dissertation/Dissertation/Dissertation/Dissertation.uproject"  -IgnoreJunk]
+[2020.05.07-04.41.52:520][ 94]Warning: Starting HotReload took  0.0s.
+[2020.05.07-04.41.55:889][169]CompilerResultsLog: New page: Compilation - 7 May 2020, 06:41:55
+[2020.05.07-04.41.55:889][169]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (F:\01 - User Profiles\dudey\Documents\GitHub\Dissertation\Dissertation).
+[2020.05.07-04.41.55:889][169]CompilerResultsLog: Building DissertationEditor...
+[2020.05.07-04.41.55:889][169]CompilerResultsLog: Using Visual Studio 2019 14.25.28612 toolchain (D:\VisualStudio\VC\Tools\MSVC\14.25.28610) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.05.07-04.41.55:889][169]CompilerResultsLog: Building 4 actions with 12 processes...
+[2020.05.07-04.41.55:889][169]CompilerResultsLog:   [1/4] Desert.cpp
+[2020.05.07-04.41.55:889][169]CompilerResultsLog:    F:\01 - User Profiles\dudey\Documents\GitHub\Dissertation\Dissertation\Dissertation\Source\Dissertation\Desert.cpp(23) : error C3867: 'AActor::GetActorLocation': non-standard syntax; use '&' to create a pointer to member
+[2020.05.07-04.41.55:889][169]CompilerResultsLog:    F:\01 - User Profiles\dudey\Documents\GitHub\Dissertation\Dissertation\Dissertation\Source\Dissertation\Desert.cpp(23) : error C3867: 'FBox::GetExtent': non-standard syntax; use '&' to create a pointer to member
+[2020.05.07-04.41.55:889][169]CompilerResultsLog:    F:\01 - User Profiles\dudey\Documents\GitHub\Dissertation\Dissertation\Dissertation\Source\Dissertation\Desert.cpp(32) : error C2065: 'Gengine': undeclared identifier
+[2020.05.07-04.41.55:889][169]CompilerResultsLog:    F:\01 - User Profiles\dudey\Documents\GitHub\Dissertation\Dissertation\Dissertation\Source\Dissertation\Desert.cpp(33) : error C4477: 'printf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'const TCHAR *'
+[2020.05.07-04.41.55:889][169]CompilerResultsLog:   F:\01 - User Profiles\dudey\Documents\GitHub\Dissertation\Dissertation\Dissertation\Source\Dissertation\Desert.cpp(33): note: consider using '%ls' in the format string
+[2020.05.07-04.41.55:889][169]CompilerResultsLog:   F:\01 - User Profiles\dudey\Documents\GitHub\Dissertation\Dissertation\Dissertation\Source\Dissertation\Desert.cpp(33): note: consider using '%lls' in the format string
+[2020.05.07-04.41.55:889][169]CompilerResultsLog:   F:\01 - User Profiles\dudey\Documents\GitHub\Dissertation\Dissertation\Dissertation\Source\Dissertation\Desert.cpp(33): note: consider using '%Ls' in the format string
+[2020.05.07-04.41.55:889][169]CompilerResultsLog:   F:\01 - User Profiles\dudey\Documents\GitHub\Dissertation\Dissertation\Dissertation\Source\Dissertation\Desert.cpp(33): note: consider using '%ws' in the format string
+[2020.05.07-04.41.55:889][169]CompilerResultsLog:    F:\01 - User Profiles\dudey\Documents\GitHub\Dissertation\Dissertation\Dissertation\Source\Dissertation\Desert.cpp(41) : error C2065: 'Gengine': undeclared identifier
+[2020.05.07-04.41.55:889][169]CompilerResultsLog:    F:\01 - User Profiles\dudey\Documents\GitHub\Dissertation\Dissertation\Dissertation\Source\Dissertation\Desert.cpp(42) : error C4477: 'printf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'const TCHAR *'
+[2020.05.07-04.41.55:889][169]CompilerResultsLog:   F:\01 - User Profiles\dudey\Documents\GitHub\Dissertation\Dissertation\Dissertation\Source\Dissertation\Desert.cpp(42): note: consider using '%ls' in the format string
+[2020.05.07-04.41.55:889][169]CompilerResultsLog:   F:\01 - User Profiles\dudey\Documents\GitHub\Dissertation\Dissertation\Dissertation\Source\Dissertation\Desert.cpp(42): note: consider using '%lls' in the format string
+[2020.05.07-04.41.55:889][169]CompilerResultsLog:   F:\01 - User Profiles\dudey\Documents\GitHub\Dissertation\Dissertation\Dissertation\Source\Dissertation\Desert.cpp(42): note: consider using '%Ls' in the format string
+[2020.05.07-04.41.55:889][169]CompilerResultsLog:   F:\01 - User Profiles\dudey\Documents\GitHub\Dissertation\Dissertation\Dissertation\Source\Dissertation\Desert.cpp(42): note: consider using '%ws' in the format string
+[2020.05.07-04.41.55:889][169]LogMainFrame: MainFrame: Module compiling took 3.382 seconds
+[2020.05.07-04.41.55:889][169]Warning: HotReload failed, recompile failed
+[2020.05.07-04.44.01:825][161]Candidate modules for hot reload:
+[2020.05.07-04.44.01:825][161]  Dissertation
+[2020.05.07-04.44.01:826][161]Launching UnrealBuildTool... [D:/Program Files/Epic Games/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Dissertation,4088 Win64 Development -TargetType=Editor -Project="F:/01 - User Profiles/dudey/Documents/GitHub/Dissertation/Dissertation/Dissertation/Dissertation.uproject" "F:/01 - User Profiles/dudey/Documents/GitHub/Dissertation/Dissertation/Dissertation/Dissertation.uproject"  -IgnoreJunk]
+[2020.05.07-04.44.01:834][161]Warning: Starting HotReload took  0.2s.
+[2020.05.07-04.44.04:841][480]CompilerResultsLog: New page: Compilation - 7 May 2020, 06:44:04
+[2020.05.07-04.44.04:842][480]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (F:\01 - User Profiles\dudey\Documents\GitHub\Dissertation\Dissertation).
+[2020.05.07-04.44.04:842][480]CompilerResultsLog: Building DissertationEditor...
+[2020.05.07-04.44.04:842][480]CompilerResultsLog: Using Visual Studio 2019 14.25.28612 toolchain (D:\VisualStudio\VC\Tools\MSVC\14.25.28610) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.05.07-04.44.04:842][480]CompilerResultsLog: Building 4 actions with 12 processes...
+[2020.05.07-04.44.04:842][480]CompilerResultsLog:   [1/4] Desert.cpp
+[2020.05.07-04.44.04:842][480]CompilerResultsLog:    F:\01 - User Profiles\dudey\Documents\GitHub\Dissertation\Dissertation\Dissertation\Source\Dissertation\Desert.cpp(23) : error C3867: 'FBox::GetExtent': non-standard syntax; use '&' to create a pointer to member
+[2020.05.07-04.44.04:842][480]CompilerResultsLog:    F:\01 - User Profiles\dudey\Documents\GitHub\Dissertation\Dissertation\Dissertation\Source\Dissertation\Desert.cpp(32) : error C2065: 'Gengine': undeclared identifier
+[2020.05.07-04.44.04:842][480]CompilerResultsLog:    F:\01 - User Profiles\dudey\Documents\GitHub\Dissertation\Dissertation\Dissertation\Source\Dissertation\Desert.cpp(33) : error C4477: 'printf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'const TCHAR *'
+[2020.05.07-04.44.04:842][480]CompilerResultsLog:   F:\01 - User Profiles\dudey\Documents\GitHub\Dissertation\Dissertation\Dissertation\Source\Dissertation\Desert.cpp(33): note: consider using '%ls' in the format string
+[2020.05.07-04.44.04:842][480]CompilerResultsLog:   F:\01 - User Profiles\dudey\Documents\GitHub\Dissertation\Dissertation\Dissertation\Source\Dissertation\Desert.cpp(33): note: consider using '%lls' in the format string
+[2020.05.07-04.44.04:842][480]CompilerResultsLog:   F:\01 - User Profiles\dudey\Documents\GitHub\Dissertation\Dissertation\Dissertation\Source\Dissertation\Desert.cpp(33): note: consider using '%Ls' in the format string
+[2020.05.07-04.44.04:842][480]CompilerResultsLog:   F:\01 - User Profiles\dudey\Documents\GitHub\Dissertation\Dissertation\Dissertation\Source\Dissertation\Desert.cpp(33): note: consider using '%ws' in the format string
+[2020.05.07-04.44.04:842][480]CompilerResultsLog:    F:\01 - User Profiles\dudey\Documents\GitHub\Dissertation\Dissertation\Dissertation\Source\Dissertation\Desert.cpp(41) : error C2065: 'Gengine': undeclared identifier
+[2020.05.07-04.44.04:842][480]CompilerResultsLog:    F:\01 - User Profiles\dudey\Documents\GitHub\Dissertation\Dissertation\Dissertation\Source\Dissertation\Desert.cpp(42) : error C4477: 'printf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'const TCHAR *'
+[2020.05.07-04.44.04:842][480]CompilerResultsLog:   F:\01 - User Profiles\dudey\Documents\GitHub\Dissertation\Dissertation\Dissertation\Source\Dissertation\Desert.cpp(42): note: consider using '%ls' in the format string
+[2020.05.07-04.44.04:842][480]CompilerResultsLog:   F:\01 - User Profiles\dudey\Documents\GitHub\Dissertation\Dissertation\Dissertation\Source\Dissertation\Desert.cpp(42): note: consider using '%lls' in the format string
+[2020.05.07-04.44.04:842][480]CompilerResultsLog:   F:\01 - User Profiles\dudey\Documents\GitHub\Dissertation\Dissertation\Dissertation\Source\Dissertation\Desert.cpp(42): note: consider using '%Ls' in the format string
+[2020.05.07-04.44.04:842][480]CompilerResultsLog:   F:\01 - User Profiles\dudey\Documents\GitHub\Dissertation\Dissertation\Dissertation\Source\Dissertation\Desert.cpp(42): note: consider using '%ws' in the format string
+[2020.05.07-04.44.04:842][480]LogMainFrame: MainFrame: Module compiling took 3.022 seconds
+[2020.05.07-04.44.04:842][480]Warning: HotReload failed, recompile failed
+[2020.05.07-04.45.26:094][923]Candidate modules for hot reload:
+[2020.05.07-04.45.26:094][923]  Dissertation
+[2020.05.07-04.45.26:094][923]Launching UnrealBuildTool... [D:/Program Files/Epic Games/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Dissertation,268 Win64 Development -TargetType=Editor -Project="F:/01 - User Profiles/dudey/Documents/GitHub/Dissertation/Dissertation/Dissertation/Dissertation.uproject" "F:/01 - User Profiles/dudey/Documents/GitHub/Dissertation/Dissertation/Dissertation/Dissertation.uproject"  -IgnoreJunk]
+[2020.05.07-04.45.26:102][923]Warning: Starting HotReload took  0.0s.
+[2020.05.07-04.45.29:796][310]CompilerResultsLog: New page: Compilation - 7 May 2020, 06:45:29
+[2020.05.07-04.45.29:796][310]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (F:\01 - User Profiles\dudey\Documents\GitHub\Dissertation\Dissertation).
+[2020.05.07-04.45.29:796][310]CompilerResultsLog: Building DissertationEditor...
+[2020.05.07-04.45.29:796][310]CompilerResultsLog: Using Visual Studio 2019 14.25.28612 toolchain (D:\VisualStudio\VC\Tools\MSVC\14.25.28610) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.05.07-04.45.29:796][310]CompilerResultsLog: Building 4 actions with 12 processes...
+[2020.05.07-04.45.29:796][310]CompilerResultsLog:   [1/4] Desert.cpp
+[2020.05.07-04.45.29:796][310]CompilerResultsLog:    F:\01 - User Profiles\dudey\Documents\GitHub\Dissertation\Dissertation\Dissertation\Source\Dissertation\Desert.cpp(32) : error C2065: 'Gengine': undeclared identifier
+[2020.05.07-04.45.29:796][310]CompilerResultsLog:    F:\01 - User Profiles\dudey\Documents\GitHub\Dissertation\Dissertation\Dissertation\Source\Dissertation\Desert.cpp(41) : error C2065: 'Gengine': undeclared identifier
+[2020.05.07-04.45.29:797][310]LogMainFrame: MainFrame: Module compiling took 3.708 seconds
+[2020.05.07-04.45.29:797][310]Warning: HotReload failed, recompile failed
+[2020.05.07-04.46.38:574][352]LogTemp: Repeating last play command: Selected Viewport
+[2020.05.07-04.46.38:606][352]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.05.07-04.46.38:606][352]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.05.07-04.46.38:606][352]PIE: New page: PIE session: FirstPersonExampleMap (7 May 2020, 06:46:38)
+[2020.05.07-04.46.38:607][352]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2020.05.07-04.46.38:608][352]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2020.05.07-04.46.38:609][352]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2020.05.07-04.46.38:626][352]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016390s)
+[2020.05.07-04.46.38:627][352]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2020.05.07-04.46.38:627][352]LogPlayLevel: PIE: World Init took: (0.001315s)
+[2020.05.07-04.46.38:627][352]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.018219s)
+[2020.05.07-04.46.38:665][352]LogUObjectHash: Compacting FUObjectHashTables data took   2.12ms
+[2020.05.07-04.46.38:666][352]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.05.07-04.46.38:666][352]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.05.07-04.46.38:666][352]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.05.07-04.46.38:666][352]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.05.07-04.46.38:666][352]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.05.07-04.46.38:666][352]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.05.07-04.46.38:666][352]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.05.07-04.46.38:666][352]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.05.07-04.46.38:667][352]LogAudio: Display: Using built-in audio occlusion.
+[2020.05.07-04.46.38:667][352]LogAudioMixer: Display: Initializing audio mixer.
+[2020.05.07-04.46.38:748][352]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.05.07-04.46.38:748][352]LogAudioMixer: Display: Name: Speakers (Realtek High Definition Audio)
+[2020.05.07-04.46.38:748][352]LogAudioMixer: Display: Is Default: Yes
+[2020.05.07-04.46.38:748][352]LogAudioMixer: Display: Sample Rate: 48000
+[2020.05.07-04.46.38:748][352]LogAudioMixer: Display: Channel Count Used: 2
+[2020.05.07-04.46.38:748][352]LogAudioMixer: Display: Device Channel Count: 2
+[2020.05.07-04.46.38:748][352]LogAudioMixer: Display: Channel Order:
+[2020.05.07-04.46.38:748][352]LogAudioMixer: Display: 0: FrontLeft
+[2020.05.07-04.46.38:748][352]LogAudioMixer: Display: 1: FrontRight
+[2020.05.07-04.46.38:768][352]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2020.05.07-04.46.38:770][352]LogInit: FAudioDevice initialized.
+[2020.05.07-04.46.38:780][352]LogLoad: Game class is 'DissertationGameMode'
+[2020.05.07-04.46.38:784][352]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2020.05.07-05.46.38
+[2020.05.07-04.46.38:784][352]LogWorld: Bringing up level for play took: 0.002486
+[2020.05.07-04.46.38:784][352]LogOnline: OSS: Creating online subsystem instance for: :Context_2
+[2020.05.07-04.46.38:850][352]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0009 seconds. Added 20 classes and 0 folders.
+[2020.05.07-04.46.38:851][352]PIE: Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap 0.844
+[2020.05.07-04.46.38:851][352]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.05.07-04.46.40:673][560]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.07-04.46.40:673][560]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.07-04.46.40:673][560]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.05.07-04.46.40:673][560]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.07-04.46.40:673][560]LogWorld: BeginTearingDown for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2020.05.07-04.46.40:673][560]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.07-04.46.40:673][560]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2020.05.07-04.46.40:673][560]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.07-04.46.40:684][560]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.05.07-04.46.40:684][560]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.05.07-04.46.40:687][560]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.07-04.46.40:718][560]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.07-04.46.40:721][560]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.07-04.46.40:724][560]LogUObjectHash: Compacting FUObjectHashTables data took   1.41ms
+[2020.05.07-04.46.40:790][565]LogPlayLevel: Display: Destroying online subsystem :Context_2
+[2020.05.07-04.46.41:875][690]Candidate modules for hot reload:
+[2020.05.07-04.46.41:875][690]  Dissertation
+[2020.05.07-04.46.41:876][690]Launching UnrealBuildTool... [D:/Program Files/Epic Games/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Dissertation,3622 Win64 Development -TargetType=Editor -Project="F:/01 - User Profiles/dudey/Documents/GitHub/Dissertation/Dissertation/Dissertation/Dissertation.uproject" "F:/01 - User Profiles/dudey/Documents/GitHub/Dissertation/Dissertation/Dissertation/Dissertation.uproject"  -IgnoreJunk]
+[2020.05.07-04.46.41:883][690]Warning: Starting HotReload took  0.0s.
+[2020.05.07-04.47.07:288][439]CompilerResultsLog: New page: Compilation - 7 May 2020, 06:47:07
+[2020.05.07-04.47.07:288][439]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (F:\01 - User Profiles\dudey\Documents\GitHub\Dissertation\Dissertation).
+[2020.05.07-04.47.07:288][439]CompilerResultsLog: Parsing headers for DissertationEditor
+[2020.05.07-04.47.07:288][439]CompilerResultsLog:   Running UnrealHeaderTool "F:\01 - User Profiles\dudey\Documents\GitHub\Dissertation\Dissertation\Dissertation\Dissertation.uproject" "F:\01 - User Profiles\dudey\Documents\GitHub\Dissertation\Dissertation\Dissertation\Intermediate\Build\Win64\DissertationEditor\Development\DissertationEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2020.05.07-04.47.07:288][439]CompilerResultsLog: Reflection code generated for DissertationEditor in 10.4220121 seconds
+[2020.05.07-04.47.07:288][439]CompilerResultsLog: Building DissertationEditor...
+[2020.05.07-04.47.07:288][439]CompilerResultsLog: Using Visual Studio 2019 14.25.28612 toolchain (D:\VisualStudio\VC\Tools\MSVC\14.25.28610) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.05.07-04.47.07:288][439]CompilerResultsLog: Building 5 actions with 12 processes...
+[2020.05.07-04.47.07:288][439]CompilerResultsLog:   [1/5] Desert.cpp
+[2020.05.07-04.47.07:288][439]CompilerResultsLog:    F:\01 - User Profiles\dudey\Documents\GitHub\Dissertation\Dissertation\Dissertation\Source\Dissertation\Desert.cpp(32) : error C2065: 'Gengine': undeclared identifier
+[2020.05.07-04.47.07:288][439]CompilerResultsLog:    F:\01 - User Profiles\dudey\Documents\GitHub\Dissertation\Dissertation\Dissertation\Source\Dissertation\Desert.cpp(41) : error C2065: 'Gengine': undeclared identifier
+[2020.05.07-04.47.07:288][439]CompilerResultsLog:   [2/5] Desert.gen.cpp
+[2020.05.07-04.47.07:288][439]LogMainFrame: MainFrame: Module compiling took 25.418 seconds
+[2020.05.07-04.47.07:288][439]Warning: HotReload failed, recompile failed
+[2020.05.07-04.47.31:638][ 74]Candidate modules for hot reload:
+[2020.05.07-04.47.31:638][ 74]  Dissertation
+[2020.05.07-04.47.31:639][ 74]Launching UnrealBuildTool... [D:/Program Files/Epic Games/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Dissertation,9007 Win64 Development -TargetType=Editor -Project="F:/01 - User Profiles/dudey/Documents/GitHub/Dissertation/Dissertation/Dissertation/Dissertation.uproject" "F:/01 - User Profiles/dudey/Documents/GitHub/Dissertation/Dissertation/Dissertation/Dissertation.uproject"  -IgnoreJunk]
+[2020.05.07-04.47.31:647][ 74]Warning: Starting HotReload took  0.0s.
+[2020.05.07-04.47.42:449][ 28]CompilerResultsLog: New page: Compilation - 7 May 2020, 06:47:42
+[2020.05.07-04.47.42:449][ 28]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (F:\01 - User Profiles\dudey\Documents\GitHub\Dissertation\Dissertation).
+[2020.05.07-04.47.42:449][ 28]CompilerResultsLog: Building DissertationEditor...
+[2020.05.07-04.47.42:449][ 28]CompilerResultsLog: Using Visual Studio 2019 14.25.28612 toolchain (D:\VisualStudio\VC\Tools\MSVC\14.25.28610) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.05.07-04.47.42:449][ 28]CompilerResultsLog: Building 4 actions with 12 processes...
+[2020.05.07-04.47.42:449][ 28]CompilerResultsLog:   [1/4] Desert.cpp
+[2020.05.07-04.47.42:449][ 28]CompilerResultsLog:    F:\01 - User Profiles\dudey\Documents\GitHub\Dissertation\Dissertation\Dissertation\Source\Dissertation\Desert.cpp(32) : error C2065: 'Gengine': undeclared identifier
+[2020.05.07-04.47.42:449][ 28]CompilerResultsLog:    F:\01 - User Profiles\dudey\Documents\GitHub\Dissertation\Dissertation\Dissertation\Source\Dissertation\Desert.cpp(41) : error C2065: 'Gengine': undeclared identifier
+[2020.05.07-04.47.42:449][ 28]LogMainFrame: MainFrame: Module compiling took 10.816 seconds
+[2020.05.07-04.47.42:449][ 28]Warning: HotReload failed, recompile failed
+[2020.05.07-04.48.29:104][879]Candidate modules for hot reload:
+[2020.05.07-04.48.29:104][879]  Dissertation
+[2020.05.07-04.48.29:104][879]Launching UnrealBuildTool... [D:/Program Files/Epic Games/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Dissertation,815 Win64 Development -TargetType=Editor -Project="F:/01 - User Profiles/dudey/Documents/GitHub/Dissertation/Dissertation/Dissertation/Dissertation.uproject" "F:/01 - User Profiles/dudey/Documents/GitHub/Dissertation/Dissertation/Dissertation/Dissertation.uproject"  -IgnoreJunk]
+[2020.05.07-04.48.29:112][879]Warning: Starting HotReload took  0.0s.
+[2020.05.07-04.49.11:073][366]CompilerResultsLog: New page: Compilation - 7 May 2020, 06:49:11
+[2020.05.07-04.49.11:073][366]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (F:\01 - User Profiles\dudey\Documents\GitHub\Dissertation\Dissertation).
+[2020.05.07-04.49.11:073][366]CompilerResultsLog: Building DissertationEditor...
+[2020.05.07-04.49.11:073][366]CompilerResultsLog: Using Visual Studio 2019 14.25.28612 toolchain (D:\VisualStudio\VC\Tools\MSVC\14.25.28610) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.05.07-04.49.11:073][366]CompilerResultsLog: Building 4 actions with 12 processes...
+[2020.05.07-04.49.11:073][366]CompilerResultsLog:   [1/4] Desert.cpp
+[2020.05.07-04.49.11:073][366]CompilerResultsLog:   [2/4] UE4Editor-Dissertation-0815.lib
+[2020.05.07-04.49.11:073][366]CompilerResultsLog:      Creating library F:\01 - User Profiles\dudey\Documents\GitHub\Dissertation\Dissertation\Dissertation\Intermediate\Build\Win64\UE4Editor\Development\Dissertation\UE4Editor-Dissertation-0815.lib and object F:\01 - User Profiles\dudey\Documents\GitHub\Dissertation\Dissertation\Dissertation\Intermediate\Build\Win64\UE4Editor\Development\Dissertation\UE4Editor-Dissertation-0815.exp
+[2020.05.07-04.49.11:073][366]CompilerResultsLog:   [3/4] UE4Editor-Dissertation-0815.dll
+[2020.05.07-04.49.11:073][366]CompilerResultsLog:      Creating library F:\01 - User Profiles\dudey\Documents\GitHub\Dissertation\Dissertation\Dissertation\Intermediate\Build\Win64\UE4Editor\Development\Dissertation\UE4Editor-Dissertation-0815.suppressed.lib and object F:\01 - User Profiles\dudey\Documents\GitHub\Dissertation\Dissertation\Dissertation\Intermediate\Build\Win64\UE4Editor\Development\Dissertation\UE4Editor-Dissertation-0815.suppressed.exp
+[2020.05.07-04.49.11:073][366]CompilerResultsLog:   [4/4] DissertationEditor.target
+[2020.05.07-04.49.11:073][366]CompilerResultsLog: Total time in Parallel executor: 40.04 seconds
+[2020.05.07-04.49.11:073][366]CompilerResultsLog: Total execution time: 41.84 seconds
+[2020.05.07-04.49.11:073][366]LogMainFrame: MainFrame: Module compiling took 41.974 seconds
+[2020.05.07-04.49.11:106][366]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2020.05.07-04.49.11:158][366]LogContentBrowser: Native class hierarchy populated in 0.0282 seconds. Added 3023 classes and 722 folders.
+[2020.05.07-04.49.11:158][366]Display: HotReload took 42.1s.
+[2020.05.07-04.50.01:269][515]LogTemp: Repeating last play command: Selected Viewport
+[2020.05.07-04.50.01:314][515]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.05.07-04.50.01:314][515]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.05.07-04.50.01:314][515]PIE: New page: PIE session: FirstPersonExampleMap (7 May 2020, 06:50:01)
+[2020.05.07-04.50.01:314][515]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2020.05.07-04.50.01:326][515]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011956s)
+[2020.05.07-04.50.01:327][515]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2020.05.07-04.50.01:328][515]LogPlayLevel: PIE: World Init took: (0.001191s)
+[2020.05.07-04.50.01:328][515]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.013297s)
+[2020.05.07-04.50.01:361][515]LogUObjectHash: Compacting FUObjectHashTables data took   1.67ms
+[2020.05.07-04.50.01:362][515]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.05.07-04.50.01:362][515]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.05.07-04.50.01:362][515]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.05.07-04.50.01:362][515]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.05.07-04.50.01:362][515]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.05.07-04.50.01:362][515]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.05.07-04.50.01:362][515]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.05.07-04.50.01:362][515]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.05.07-04.50.01:362][515]LogAudio: Display: Using built-in audio occlusion.
+[2020.05.07-04.50.01:362][515]LogAudioMixer: Display: Initializing audio mixer.
+[2020.05.07-04.50.01:442][515]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.05.07-04.50.01:442][515]LogAudioMixer: Display: Name: Speakers (Realtek High Definition Audio)
+[2020.05.07-04.50.01:442][515]LogAudioMixer: Display: Is Default: Yes
+[2020.05.07-04.50.01:442][515]LogAudioMixer: Display: Sample Rate: 48000
+[2020.05.07-04.50.01:442][515]LogAudioMixer: Display: Channel Count Used: 2
+[2020.05.07-04.50.01:442][515]LogAudioMixer: Display: Device Channel Count: 2
+[2020.05.07-04.50.01:442][515]LogAudioMixer: Display: Channel Order:
+[2020.05.07-04.50.01:442][515]LogAudioMixer: Display: 0: FrontLeft
+[2020.05.07-04.50.01:442][515]LogAudioMixer: Display: 1: FrontRight
+[2020.05.07-04.50.01:460][515]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2020.05.07-04.50.01:463][515]LogInit: FAudioDevice initialized.
+[2020.05.07-04.50.01:472][515]LogLoad: Game class is 'DissertationGameMode'
+[2020.05.07-04.50.01:474][515]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2020.05.07-05.50.01
+[2020.05.07-04.50.01:474][515]LogWorld: Bringing up level for play took: 0.001515
+[2020.05.07-04.50.01:474][515]LogOnline: OSS: Creating online subsystem instance for: :Context_3
+[2020.05.07-04.50.01:476][515]PIE: Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap -0.53
+[2020.05.07-04.50.01:477][515]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.05.07-04.50.06:350][ 92]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.07-04.50.06:370][ 92]LogAudioMixer: Display: Flush succeeded in the source manager command queue (1).
+[2020.05.07-04.50.06:390][ 92]LogAudioMixer: Display: Flush succeeded the source manager command queue (2).
+[2020.05.07-04.50.06:390][ 92]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.05.07-04.50.06:390][ 92]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.07-04.50.06:390][ 92]LogWorld: BeginTearingDown for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2020.05.07-04.50.06:390][ 92]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.07-04.50.06:390][ 92]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2020.05.07-04.50.06:390][ 92]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.07-04.50.06:401][ 92]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.05.07-04.50.06:401][ 92]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.05.07-04.50.06:404][ 92]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.07-04.50.06:435][ 92]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.07-04.50.06:439][ 92]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.07-04.50.06:442][ 92]LogUObjectHash: Compacting FUObjectHashTables data took   1.43ms
+[2020.05.07-04.50.06:464][ 93]LogPlayLevel: Display: Destroying online subsystem :Context_3
+[2020.05.07-04.50.10:531][557]LogEditor: Attempting to add actor of class 'Desert' to level at 40.00,-280.00,170.00
+[2020.05.07-04.50.11:950][718]LogEditor: Attempting to add actor of class 'Desert' to level at 360.00,-200.00,170.00
+[2020.05.07-04.50.40:450][105]LogTemp: Repeating last play command: Selected Viewport
+[2020.05.07-04.50.40:641][105]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.05.07-04.50.40:641][105]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.05.07-04.50.40:641][105]PIE: New page: PIE session: FirstPersonExampleMap (7 May 2020, 06:50:40)
+[2020.05.07-04.50.40:642][105]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2020.05.07-04.50.40:653][105]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010971s)
+[2020.05.07-04.50.40:654][105]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2020.05.07-04.50.40:654][105]LogPlayLevel: PIE: World Init took: (0.001737s)
+[2020.05.07-04.50.40:654][105]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.012857s)
+[2020.05.07-04.50.40:687][105]LogUObjectHash: Compacting FUObjectHashTables data took   1.70ms
+[2020.05.07-04.50.40:688][105]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.05.07-04.50.40:688][105]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.05.07-04.50.40:688][105]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.05.07-04.50.40:688][105]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.05.07-04.50.40:688][105]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.05.07-04.50.40:688][105]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.05.07-04.50.40:688][105]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.05.07-04.50.40:688][105]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.05.07-04.50.40:688][105]LogAudio: Display: Using built-in audio occlusion.
+[2020.05.07-04.50.40:688][105]LogAudioMixer: Display: Initializing audio mixer.
+[2020.05.07-04.50.40:772][105]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.05.07-04.50.40:772][105]LogAudioMixer: Display: Name: Speakers (Realtek High Definition Audio)
+[2020.05.07-04.50.40:772][105]LogAudioMixer: Display: Is Default: Yes
+[2020.05.07-04.50.40:772][105]LogAudioMixer: Display: Sample Rate: 48000
+[2020.05.07-04.50.40:772][105]LogAudioMixer: Display: Channel Count Used: 2
+[2020.05.07-04.50.40:772][105]LogAudioMixer: Display: Device Channel Count: 2
+[2020.05.07-04.50.40:772][105]LogAudioMixer: Display: Channel Order:
+[2020.05.07-04.50.40:772][105]LogAudioMixer: Display: 0: FrontLeft
+[2020.05.07-04.50.40:772][105]LogAudioMixer: Display: 1: FrontRight
+[2020.05.07-04.50.40:790][105]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2020.05.07-04.50.40:792][105]LogInit: FAudioDevice initialized.
+[2020.05.07-04.50.40:797][105]LogLoad: Game class is 'DissertationGameMode'
+[2020.05.07-04.50.40:799][105]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2020.05.07-05.50.40
+[2020.05.07-04.50.40:799][105]LogWorld: Bringing up level for play took: 0.001497
+[2020.05.07-04.50.40:799][105]LogOnline: OSS: Creating online subsystem instance for: :Context_4
+[2020.05.07-04.50.40:802][105]PIE: Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap 0.795
+[2020.05.07-04.50.40:802][105]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.05.07-04.50.54:762][774]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.07-04.50.54:762][774]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.07-04.50.54:762][774]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.05.07-04.50.54:763][774]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.07-04.50.54:763][774]LogWorld: BeginTearingDown for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2020.05.07-04.50.54:763][774]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.07-04.50.54:763][774]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2020.05.07-04.50.54:763][774]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.07-04.50.54:770][774]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.05.07-04.50.54:771][774]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.05.07-04.50.54:774][774]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.07-04.50.54:806][774]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.07-04.50.54:809][774]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.07-04.50.54:811][774]LogUObjectHash: Compacting FUObjectHashTables data took   1.66ms
+[2020.05.07-04.50.54:862][776]LogPlayLevel: Display: Destroying online subsystem :Context_4
+[2020.05.07-04.51.03:788][790]LogEditorViewport: Clicking on Actor (LMB): Desert (Desert1)
+[2020.05.07-04.51.03:974][808]LogEditorViewport: Clicking on Actor (LMB): Desert (Desert1)
+[2020.05.07-04.51.13:421][920]LogTemp: Repeating last play command: Selected Viewport
+[2020.05.07-04.51.13:450][920]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.05.07-04.51.13:451][920]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.05.07-04.51.13:451][920]PIE: New page: PIE session: FirstPersonExampleMap (7 May 2020, 06:51:13)
+[2020.05.07-04.51.13:451][920]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2020.05.07-04.51.13:461][920]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010513s)
+[2020.05.07-04.51.13:462][920]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2020.05.07-04.51.13:463][920]LogPlayLevel: PIE: World Init took: (0.001277s)
+[2020.05.07-04.51.13:463][920]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.011931s)
+[2020.05.07-04.51.13:495][920]LogUObjectHash: Compacting FUObjectHashTables data took   1.48ms
+[2020.05.07-04.51.13:497][920]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.05.07-04.51.13:497][920]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.05.07-04.51.13:497][920]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.05.07-04.51.13:497][920]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.05.07-04.51.13:497][920]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.05.07-04.51.13:497][920]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.05.07-04.51.13:497][920]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.05.07-04.51.13:497][920]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.05.07-04.51.13:497][920]LogAudio: Display: Using built-in audio occlusion.
+[2020.05.07-04.51.13:497][920]LogAudioMixer: Display: Initializing audio mixer.
+[2020.05.07-04.51.13:571][920]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.05.07-04.51.13:571][920]LogAudioMixer: Display: Name: Speakers (Realtek High Definition Audio)
+[2020.05.07-04.51.13:571][920]LogAudioMixer: Display: Is Default: Yes
+[2020.05.07-04.51.13:571][920]LogAudioMixer: Display: Sample Rate: 48000
+[2020.05.07-04.51.13:571][920]LogAudioMixer: Display: Channel Count Used: 2
+[2020.05.07-04.51.13:571][920]LogAudioMixer: Display: Device Channel Count: 2
+[2020.05.07-04.51.13:572][920]LogAudioMixer: Display: Channel Order:
+[2020.05.07-04.51.13:572][920]LogAudioMixer: Display: 0: FrontLeft
+[2020.05.07-04.51.13:572][920]LogAudioMixer: Display: 1: FrontRight
+[2020.05.07-04.51.13:589][920]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2020.05.07-04.51.13:591][920]LogInit: FAudioDevice initialized.
+[2020.05.07-04.51.13:601][920]LogLoad: Game class is 'DissertationGameMode'
+[2020.05.07-04.51.13:603][920]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2020.05.07-05.51.13
+[2020.05.07-04.51.13:603][920]LogWorld: Bringing up level for play took: 0.001605
+[2020.05.07-04.51.13:603][920]LogOnline: OSS: Creating online subsystem instance for: :Context_5
+[2020.05.07-04.51.13:605][920]PIE: Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap -0.402
+[2020.05.07-04.51.13:605][920]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.05.07-04.51.20:140][701]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.07-04.51.20:140][701]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.07-04.51.20:140][701]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.05.07-04.51.20:140][701]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.07-04.51.20:140][701]LogWorld: BeginTearingDown for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2020.05.07-04.51.20:140][701]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.07-04.51.20:141][701]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2020.05.07-04.51.20:141][701]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.07-04.51.20:146][701]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.05.07-04.51.20:146][701]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.05.07-04.51.20:150][701]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.07-04.51.20:181][701]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.07-04.51.20:184][701]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.07-04.51.20:186][701]LogUObjectHash: Compacting FUObjectHashTables data took   1.41ms
+[2020.05.07-04.51.20:242][704]LogPlayLevel: Display: Destroying online subsystem :Context_5
+[2020.05.07-04.51.26:839][480]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2020.05.07-04.51.28:026][618]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2020.05.07-04.55.59:531][710]Candidate modules for hot reload:
+[2020.05.07-04.55.59:531][710]  Dissertation
+[2020.05.07-04.55.59:531][710]Launching UnrealBuildTool... [D:/Program Files/Epic Games/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Dissertation,8538 Win64 Development -TargetType=Editor -Project="F:/01 - User Profiles/dudey/Documents/GitHub/Dissertation/Dissertation/Dissertation/Dissertation.uproject" "F:/01 - User Profiles/dudey/Documents/GitHub/Dissertation/Dissertation/Dissertation/Dissertation.uproject"  -IgnoreJunk]
+[2020.05.07-04.55.59:539][710]Warning: Starting HotReload took  0.0s.
+[2020.05.07-04.56.56:233][691]CompilerResultsLog: New page: Compilation - 7 May 2020, 06:56:56
+[2020.05.07-04.56.56:233][691]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (F:\01 - User Profiles\dudey\Documents\GitHub\Dissertation\Dissertation).
+[2020.05.07-04.56.56:233][691]CompilerResultsLog: Building DissertationEditor...
+[2020.05.07-04.56.56:233][691]CompilerResultsLog: Using Visual Studio 2019 14.25.28612 toolchain (D:\VisualStudio\VC\Tools\MSVC\14.25.28610) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.05.07-04.56.56:233][691]CompilerResultsLog: Building 4 actions with 12 processes...
+[2020.05.07-04.56.56:233][691]CompilerResultsLog:   [1/4] Desert.cpp
+[2020.05.07-04.56.56:233][691]CompilerResultsLog:   [2/4] UE4Editor-Dissertation-8538.lib
+[2020.05.07-04.56.56:233][691]CompilerResultsLog:      Creating library F:\01 - User Profiles\dudey\Documents\GitHub\Dissertation\Dissertation\Dissertation\Intermediate\Build\Win64\UE4Editor\Development\Dissertation\UE4Editor-Dissertation-8538.lib and object F:\01 - User Profiles\dudey\Documents\GitHub\Dissertation\Dissertation\Dissertation\Intermediate\Build\Win64\UE4Editor\Development\Dissertation\UE4Editor-Dissertation-8538.exp
+[2020.05.07-04.56.56:233][691]CompilerResultsLog:   [3/4] UE4Editor-Dissertation-8538.dll
+[2020.05.07-04.56.56:234][691]CompilerResultsLog:      Creating library F:\01 - User Profiles\dudey\Documents\GitHub\Dissertation\Dissertation\Dissertation\Intermediate\Build\Win64\UE4Editor\Development\Dissertation\UE4Editor-Dissertation-8538.suppressed.lib and object F:\01 - User Profiles\dudey\Documents\GitHub\Dissertation\Dissertation\Dissertation\Intermediate\Build\Win64\UE4Editor\Development\Dissertation\UE4Editor-Dissertation-8538.suppressed.exp
+[2020.05.07-04.56.56:234][691]CompilerResultsLog:   [4/4] DissertationEditor.target
+[2020.05.07-04.56.56:234][691]CompilerResultsLog: Total time in Parallel executor: 54.21 seconds
+[2020.05.07-04.56.56:234][691]CompilerResultsLog: Total execution time: 56.58 seconds
+[2020.05.07-04.56.56:234][691]LogMainFrame: MainFrame: Module compiling took 56.707 seconds
+[2020.05.07-04.56.56:266][691]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2020.05.07-04.56.56:284][691]LogClass: Could not find existing class Desert in package /Script/Dissertation for HotReload, assuming new class
+[2020.05.07-04.56.56:284][691]LogClass: Function OnOverlapBegin is new.
+[2020.05.07-04.56.56:284][691]LogClass: Function OnOverlapEnd is new.
+[2020.05.07-04.56.56:295][691]LogHotReload: Re-instancing Desert after hot-reload.
+[2020.05.07-04.56.56:462][691]LogContentBrowser: Native class hierarchy updated for 'Dissertation' in 0.0008 seconds. Added 6 classes and 2 folders.
+[2020.05.07-04.56.56:465][691]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2020.05.07-04.56.56:534][691]LogUObjectHash: Compacting FUObjectHashTables data took   1.38ms
+[2020.05.07-04.56.56:549][691]LogContentBrowser: Native class hierarchy populated in 0.0096 seconds. Added 3023 classes and 722 folders.
+[2020.05.07-04.56.56:549][691]Display: HotReload took 57.0s.
+[2020.05.07-04.57.01:920][707]LogTemp: Repeating last play command: Selected Viewport
+[2020.05.07-04.57.01:975][707]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.05.07-04.57.01:975][707]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.05.07-04.57.01:975][707]PIE: New page: PIE session: FirstPersonExampleMap (7 May 2020, 06:57:01)
+[2020.05.07-04.57.01:975][707]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2020.05.07-04.57.01:986][707]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010661s)
+[2020.05.07-04.57.01:987][707]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2020.05.07-04.57.01:987][707]LogPlayLevel: PIE: World Init took: (0.001084s)
+[2020.05.07-04.57.01:987][707]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.011891s)
+[2020.05.07-04.57.02:020][707]LogUObjectHash: Compacting FUObjectHashTables data took   1.42ms
+[2020.05.07-04.57.02:022][707]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.05.07-04.57.02:022][707]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.05.07-04.57.02:022][707]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.05.07-04.57.02:022][707]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.05.07-04.57.02:022][707]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.05.07-04.57.02:022][707]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.05.07-04.57.02:022][707]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.05.07-04.57.02:022][707]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.05.07-04.57.02:022][707]LogAudio: Display: Using built-in audio occlusion.
+[2020.05.07-04.57.02:022][707]LogAudioMixer: Display: Initializing audio mixer.
+[2020.05.07-04.57.02:098][707]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.05.07-04.57.02:098][707]LogAudioMixer: Display: Name: Speakers (Realtek High Definition Audio)
+[2020.05.07-04.57.02:098][707]LogAudioMixer: Display: Is Default: Yes
+[2020.05.07-04.57.02:098][707]LogAudioMixer: Display: Sample Rate: 48000
+[2020.05.07-04.57.02:098][707]LogAudioMixer: Display: Channel Count Used: 2
+[2020.05.07-04.57.02:098][707]LogAudioMixer: Display: Device Channel Count: 2
+[2020.05.07-04.57.02:098][707]LogAudioMixer: Display: Channel Order:
+[2020.05.07-04.57.02:098][707]LogAudioMixer: Display: 0: FrontLeft
+[2020.05.07-04.57.02:098][707]LogAudioMixer: Display: 1: FrontRight
+[2020.05.07-04.57.02:118][707]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2020.05.07-04.57.02:119][707]LogInit: FAudioDevice initialized.
+[2020.05.07-04.57.02:125][707]LogLoad: Game class is 'DissertationGameMode'
+[2020.05.07-04.57.02:126][707]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2020.05.07-05.57.02
+[2020.05.07-04.57.02:127][707]LogWorld: Bringing up level for play took: 0.001606
+[2020.05.07-04.57.02:127][707]LogOnline: OSS: Creating online subsystem instance for: :Context_6
+[2020.05.07-04.57.02:129][707]PIE: Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap 0.122
+[2020.05.07-04.57.02:129][707]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.05.07-04.57.15:601][318]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.07-04.57.15:601][318]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.07-04.57.15:601][318]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.05.07-04.57.15:601][318]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.07-04.57.15:601][318]LogWorld: BeginTearingDown for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2020.05.07-04.57.15:601][318]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.07-04.57.15:601][318]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2020.05.07-04.57.15:602][318]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.07-04.57.15:611][318]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.05.07-04.57.15:611][318]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.05.07-04.57.15:614][318]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.05.07-04.57.15:644][318]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.05.07-04.57.15:647][318]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.05.07-04.57.15:650][318]LogUObjectHash: Compacting FUObjectHashTables data took   1.42ms
+[2020.05.07-04.57.15:671][319]Cmd: SELECT NONE
+[2020.05.07-04.57.15:700][320]LogPlayLevel: Display: Destroying online subsystem :Context_6
+[2020.05.07-04.57.46:409][214]Candidate modules for hot reload:
+[2020.05.07-04.57.46:409][214]  Dissertation
+[2020.05.07-04.57.46:410][214]Launching UnrealBuildTool... [D:/Program Files/Epic Games/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Dissertation,7158 Win64 Development -TargetType=Editor -Project="F:/01 - User Profiles/dudey/Documents/GitHub/Dissertation/Dissertation/Dissertation/Dissertation.uproject" "F:/01 - User Profiles/dudey/Documents/GitHub/Dissertation/Dissertation/Dissertation/Dissertation.uproject"  -IgnoreJunk]
+[2020.05.07-04.57.46:418][214]Warning: Starting HotReload took  0.0s.
+[2020.05.07-04.58.18:687][537]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2020.05.07-04.58.31:088][537]LogSavePackage: Moving 'F:/01 - User Profiles/dudey/Documents/GitHub/Dissertation/Dissertation/Dissertation/Saved/FirstPersonExampleMap_Auto1D9CE700F47651402E4569EBFAFCD9DDA.tmp' to 'F:/01 - User Profiles/dudey/Documents/GitHub/Dissertation/Dissertation/Dissertation/Saved/Autosaves/Game/FirstPersonCPP/Maps/FirstPersonExampleMap_Auto1.umap'
+[2020.05.07-04.58.31:093][537]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap' took 12.437
+[2020.05.07-04.58.31:093][537]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 12.437
+[2020.05.07-04.58.31:138][538]CompilerResultsLog: New page: Compilation - 7 May 2020, 06:58:31
+[2020.05.07-04.58.31:138][538]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (F:\01 - User Profiles\dudey\Documents\GitHub\Dissertation\Dissertation).
+[2020.05.07-04.58.31:138][538]CompilerResultsLog: Parsing headers for DissertationEditor
+[2020.05.07-04.58.31:138][538]CompilerResultsLog:   Running UnrealHeaderTool "F:\01 - User Profiles\dudey\Documents\GitHub\Dissertation\Dissertation\Dissertation\Dissertation.uproject" "F:\01 - User Profiles\dudey\Documents\GitHub\Dissertation\Dissertation\Dissertation\Intermediate\Build\Win64\DissertationEditor\Development\DissertationEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2020.05.07-04.58.31:138][538]CompilerResultsLog: Reflection code generated for DissertationEditor in 10.3892627 seconds
+[2020.05.07-04.58.31:138][538]CompilerResultsLog: Building DissertationEditor...
+[2020.05.07-04.58.31:138][538]CompilerResultsLog: Using Visual Studio 2019 14.25.28612 toolchain (D:\VisualStudio\VC\Tools\MSVC\14.25.28610) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.05.07-04.58.31:138][538]CompilerResultsLog: Building 6 actions with 12 processes...
+[2020.05.07-04.58.31:139][538]CompilerResultsLog:   [1/6] Dissertation.init.gen.cpp
+[2020.05.07-04.58.31:139][538]CompilerResultsLog:   [2/6] Desert.cpp
+[2020.05.07-04.58.31:139][538]CompilerResultsLog:    F:\01 - User Profiles\dudey\Documents\GitHub\Dissertation\Dissertation\Dissertation\Source\Dissertation\Desert.cpp(12) : error C2664: 'void TSparseDynamicDelegate<FActorBeginOverlapSignature_MCSignature,AActor,FActorBeginOverlapSignatureInfoGetter>::__Internal_AddDynamic<ADesert>(UserClass *,void (__cdecl ADesert::* )(AActor *,AActor *),FName)': cannot convert argument 2 from 'int (__cdecl ADesert::* )(AActor *,AActor *)' to 'void (__cdecl ADesert::* )(AActor *,AActor *)'
+[2020.05.07-04.58.31:139][538]CompilerResultsLog:           with
+[2020.05.07-04.58.31:139][538]CompilerResultsLog:           [
+[2020.05.07-04.58.31:139][538]CompilerResultsLog:               UserClass=ADesert
+[2020.05.07-04.58.31:139][538]CompilerResultsLog:           ]
+[2020.05.07-04.58.31:139][538]CompilerResultsLog:   F:\01 - User Profiles\dudey\Documents\GitHub\Dissertation\Dissertation\Dissertation\Source\Dissertation\Desert.cpp(12): note: Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+[2020.05.07-04.58.31:139][538]CompilerResultsLog:   D:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\CoreUObject\Public\UObject/SparseDelegate.h(339): note: see declaration of 'TSparseDynamicDelegate<FActorBeginOverlapSignature_MCSignature,AActor,FActorBeginOverlapSignatureInfoGetter>::__Internal_AddDynamic'
+[2020.05.07-04.58.31:139][538]CompilerResultsLog:    F:\01 - User Profiles\dudey\Documents\GitHub\Dissertation\Dissertation\Dissertation\Source\Dissertation\Desert.cpp(13) : error C2664: 'void TSparseDynamicDelegate<FActorEndOverlapSignature_MCSignature,AActor,FActorEndOverlapSignatureInfoGetter>::__Internal_AddDynamic<ADesert>(UserClass *,void (__cdecl ADesert::* )(AActor *,AActor *),FName)': cannot convert argument 2 from 'int (__cdecl ADesert::* )(AActor *,AActor *)' to 'void (__cdecl ADesert::* )(AActor *,AActor *)'
+[2020.05.07-04.58.31:139][538]CompilerResultsLog:           with
+[2020.05.07-04.58.31:139][538]CompilerResultsLog:           [
+[2020.05.07-04.58.31:139][538]CompilerResultsLog:               UserClass=ADesert
+[2020.05.07-04.58.31:139][538]CompilerResultsLog:           ]
+[2020.05.07-04.58.31:139][538]CompilerResultsLog:   F:\01 - User Profiles\dudey\Documents\GitHub\Dissertation\Dissertation\Dissertation\Source\Dissertation\Desert.cpp(13): note: Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+[2020.05.07-04.58.31:139][538]CompilerResultsLog:   D:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\CoreUObject\Public\UObject/SparseDelegate.h(339): note: see declaration of 'TSparseDynamicDelegate<FActorEndOverlapSignature_MCSignature,AActor,FActorEndOverlapSignatureInfoGetter>::__Internal_AddDynamic'
+[2020.05.07-04.58.31:139][538]CompilerResultsLog:    F:\01 - User Profiles\dudey\Documents\GitHub\Dissertation\Dissertation\Dissertation\Source\Dissertation\Desert.cpp(25) : error C2556: 'void ADesert::OnOverlapBegin(AActor *,AActor *)': overloaded function differs only by return type from 'int ADesert::OnOverlapBegin(AActor *,AActor *)'
+[2020.05.07-04.58.31:139][538]CompilerResultsLog:   F:\01 - User Profiles\dudey\Documents\GitHub\Dissertation\Dissertation\Dissertation\Source\Dissertation\Desert.h(29): note: see declaration of 'ADesert::OnOverlapBegin'
+[2020.05.07-04.58.31:139][538]CompilerResultsLog:    F:\01 - User Profiles\dudey\Documents\GitHub\Dissertation\Dissertation\Dissertation\Source\Dissertation\Desert.cpp(24) : error C2371: 'ADesert::OnOverlapBegin': redefinition; different basic types
+[2020.05.07-04.58.31:139][538]CompilerResultsLog:   F:\01 - User Profiles\dudey\Documents\GitHub\Dissertation\Dissertation\Dissertation\Source\Dissertation\Desert.h(29): note: see declaration of 'ADesert::OnOverlapBegin'
+[2020.05.07-04.58.31:139][538]CompilerResultsLog:    F:\01 - User Profiles\dudey\Documents\GitHub\Dissertation\Dissertation\Dissertation\Source\Dissertation\Desert.cpp(37) : error C2556: 'void ADesert::OnOverlapEnd(AActor *,AActor *)': overloaded function differs only by return type from 'int ADesert::OnOverlapEnd(AActor *,AActor *)'
+[2020.05.07-04.58.31:139][538]CompilerResultsLog:   F:\01 - User Profiles\dudey\Documents\GitHub\Dissertation\Dissertation\Dissertation\Source\Dissertation\Desert.h(32): note: see declaration of 'ADesert::OnOverlapEnd'
+[2020.05.07-04.58.31:139][538]CompilerResultsLog:    F:\01 - User Profiles\dudey\Documents\GitHub\Dissertation\Dissertation\Dissertation\Source\Dissertation\Desert.cpp(36) : error C2371: 'ADesert::OnOverlapEnd': redefinition; different basic types
+[2020.05.07-04.58.31:139][538]CompilerResultsLog:   F:\01 - User Profiles\dudey\Documents\GitHub\Dissertation\Dissertation\Dissertation\Source\Dissertation\Desert.h(32): note: see declaration of 'ADesert::OnOverlapEnd'
+[2020.05.07-04.58.31:139][538]CompilerResultsLog:   [3/6] Desert.gen.cpp
+[2020.05.07-04.58.31:139][538]LogMainFrame: MainFrame: Module compiling took 44.735 seconds
+[2020.05.07-04.58.31:139][538]Warning: HotReload failed, recompile failed
+[2020.05.07-04.59.00:960][733]Candidate modules for hot reload:
+[2020.05.07-04.59.00:960][733]  Dissertation
+[2020.05.07-04.59.00:961][733]Launching UnrealBuildTool... [D:/Program Files/Epic Games/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Dissertation,448 Win64 Development -TargetType=Editor -Project="F:/01 - User Profiles/dudey/Documents/GitHub/Dissertation/Dissertation/Dissertation/Dissertation.uproject" "F:/01 - User Profiles/dudey/Documents/GitHub/Dissertation/Dissertation/Dissertation/Dissertation.uproject"  -IgnoreJunk]
+[2020.05.07-04.59.00:968][733]Warning: Starting HotReload took  0.0s.
+[2020.05.07-04.59.12:029][685]CompilerResultsLog: New page: Compilation - 7 May 2020, 06:59:12
+[2020.05.07-04.59.12:029][685]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (F:\01 - User Profiles\dudey\Documents\GitHub\Dissertation\Dissertation).
+[2020.05.07-04.59.12:029][685]CompilerResultsLog: Building DissertationEditor...
+[2020.05.07-04.59.12:029][685]CompilerResultsLog: Using Visual Studio 2019 14.25.28612 toolchain (D:\VisualStudio\VC\Tools\MSVC\14.25.28610) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.05.07-04.59.12:029][685]CompilerResultsLog: Building 4 actions with 12 processes...
+[2020.05.07-04.59.12:029][685]CompilerResultsLog:   [1/4] Desert.cpp
+[2020.05.07-04.59.12:029][685]CompilerResultsLog:    F:\01 - User Profiles\dudey\Documents\GitHub\Dissertation\Dissertation\Dissertation\Source\Dissertation\Desert.cpp(12) : error C2664: 'void TSparseDynamicDelegate<FActorBeginOverlapSignature_MCSignature,AActor,FActorBeginOverlapSignatureInfoGetter>::__Internal_AddDynamic<ADesert>(UserClass *,void (__cdecl ADesert::* )(AActor *,AActor *),FName)': cannot convert argument 2 from 'int (__cdecl ADesert::* )(AActor *,AActor *)' to 'void (__cdecl ADesert::* )(AActor *,AActor *)'
+[2020.05.07-04.59.12:029][685]CompilerResultsLog:           with
+[2020.05.07-04.59.12:029][685]CompilerResultsLog:           [
+[2020.05.07-04.59.12:029][685]CompilerResultsLog:               UserClass=ADesert
+[2020.05.07-04.59.12:029][685]CompilerResultsLog:           ]
+[2020.05.07-04.59.12:029][685]CompilerResultsLog:   F:\01 - User Profiles\dudey\Documents\GitHub\Dissertation\Dissertation\Dissertation\Source\Dissertation\Desert.cpp(12): note: Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+[2020.05.07-04.59.12:029][685]CompilerResultsLog:   D:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\CoreUObject\Public\UObject/SparseDelegate.h(339): note: see declaration of 'TSparseDynamicDelegate<FActorBeginOverlapSignature_MCSignature,AActor,FActorBeginOverlapSignatureInfoGetter>::__Internal_AddDynamic'
+[2020.05.07-04.59.12:029][685]CompilerResultsLog:    F:\01 - User Profiles\dudey\Documents\GitHub\Dissertation\Dissertation\Dissertation\Source\Dissertation\Desert.cpp(13) : error C2664: 'void TSparseDynamicDelegate<FActorEndOverlapSignature_MCSignature,AActor,FActorEndOverlapSignatureInfoGetter>::__Internal_AddDynamic<ADesert>(UserClass *,void (__cdecl ADesert::* )(AActor *,AActor *),FName)': cannot convert argument 2 from 'int (__cdecl ADesert::* )(AActor *,AActor *)' to 'void (__cdecl ADesert::* )(AActor *,AActor *)'
+[2020.05.07-04.59.12:029][685]CompilerResultsLog:           with
+[2020.05.07-04.59.12:029][685]CompilerResultsLog:           [
+[2020.05.07-04.59.12:029][685]CompilerResultsLog:               UserClass=ADesert
+[2020.05.07-04.59.12:029][685]CompilerResultsLog:           ]
+[2020.05.07-04.59.12:029][685]CompilerResultsLog:   F:\01 - User Profiles\dudey\Documents\GitHub\Dissertation\Dissertation\Dissertation\Source\Dissertation\Desert.cpp(13): note: Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+[2020.05.07-04.59.12:029][685]CompilerResultsLog:   D:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\CoreUObject\Public\UObject/SparseDelegate.h(339): note: see declaration of 'TSparseDynamicDelegate<FActorEndOverlapSignature_MCSignature,AActor,FActorEndOverlapSignatureInfoGetter>::__Internal_AddDynamic'
+[2020.05.07-04.59.12:030][685]LogMainFrame: MainFrame: Module compiling took 11.073 seconds
+[2020.05.07-04.59.12:030][685]Warning: HotReload failed, recompile failed
+[2020.05.07-05.00.30:580][771]Candidate modules for hot reload:
+[2020.05.07-05.00.30:580][771]  Dissertation
+[2020.05.07-05.00.30:580][771]Launching UnrealBuildTool... [D:/Program Files/Epic Games/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Dissertation,5052 Win64 Development -TargetType=Editor -Project="F:/01 - User Profiles/dudey/Documents/GitHub/Dissertation/Dissertation/Dissertation/Dissertation.uproject" "F:/01 - User Profiles/dudey/Documents/GitHub/Dissertation/Dissertation/Dissertation/Dissertation.uproject"  -IgnoreJunk]
+[2020.05.07-05.00.30:589][771]Warning: Starting HotReload took  0.0s.
+[2020.05.07-05.01.42:779][789]CompilerResultsLog: New page: Compilation - 7 May 2020, 07:01:42
+[2020.05.07-05.01.42:780][789]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (F:\01 - User Profiles\dudey\Documents\GitHub\Dissertation\Dissertation).
+[2020.05.07-05.01.42:780][789]CompilerResultsLog: Parsing headers for DissertationEditor
+[2020.05.07-05.01.42:780][789]CompilerResultsLog:   Running UnrealHeaderTool "F:\01 - User Profiles\dudey\Documents\GitHub\Dissertation\Dissertation\Dissertation\Dissertation.uproject" "F:\01 - User Profiles\dudey\Documents\GitHub\Dissertation\Dissertation\Dissertation\Intermediate\Build\Win64\DissertationEditor\Development\DissertationEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2020.05.07-05.01.42:780][789]CompilerResultsLog: Reflection code generated for DissertationEditor in 11.1121252 seconds
+[2020.05.07-05.01.42:780][789]CompilerResultsLog: Building DissertationEditor...
+[2020.05.07-05.01.42:780][789]CompilerResultsLog: Using Visual Studio 2019 14.25.28612 toolchain (D:\VisualStudio\VC\Tools\MSVC\14.25.28610) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.05.07-05.01.42:780][789]CompilerResultsLog: Building 6 actions with 12 processes...
+[2020.05.07-05.01.42:780][789]CompilerResultsLog:   [1/6] Dissertation.init.gen.cpp
+[2020.05.07-05.01.42:780][789]CompilerResultsLog:   [2/6] Desert.cpp
+[2020.05.07-05.01.42:780][789]CompilerResultsLog:   [3/6] Desert.gen.cpp
+[2020.05.07-05.01.42:780][789]CompilerResultsLog:   [4/6] UE4Editor-Dissertation-5052.lib
+[2020.05.07-05.01.42:780][789]CompilerResultsLog:      Creating library F:\01 - User Profiles\dudey\Documents\GitHub\Dissertation\Dissertation\Dissertation\Intermediate\Build\Win64\UE4Editor\Development\Dissertation\UE4Editor-Dissertation-5052.lib and object F:\01 - User Profiles\dudey\Documents\GitHub\Dissertation\Dissertation\Dissertation\Intermediate\Build\Win64\UE4Editor\Development\Dissertation\UE4Editor-Dissertation-5052.exp
+[2020.05.07-05.01.42:780][789]CompilerResultsLog:   [5/6] UE4Editor-Dissertation-5052.dll
+[2020.05.07-05.01.42:780][789]CompilerResultsLog:      Creating library F:\01 - User Profiles\dudey\Documents\GitHub\Dissertation\Dissertation\Dissertation\Intermediate\Build\Win64\UE4Editor\Development\Dissertation\UE4Editor-Dissertation-5052.suppressed.lib and object F:\01 - User Profiles\dudey\Documents\GitHub\Dissertation\Dissertation\Dissertation\Intermediate\Build\Win64\UE4Editor\Development\Dissertation\UE4Editor-Dissertation-5052.suppressed.exp
+[2020.05.07-05.01.42:780][789]CompilerResultsLog:   [6/6] DissertationEditor.target
+[2020.05.07-05.01.42:780][789]CompilerResultsLog: Total time in Parallel executor: 57.39 seconds
+[2020.05.07-05.01.42:780][789]CompilerResultsLog: Total execution time: 71.83 seconds
+[2020.05.07-05.01.42:780][789]LogMainFrame: MainFrame: Module compiling took 72.204 seconds
+[2020.05.07-05.01.42:813][789]LogUObjectHash: Compacting FUObjectHashTables data took   1.94ms
+[2020.05.07-05.01.42:831][789]LogHotReload: Re-instancing Desert after hot-reload.
+[2020.05.07-05.01.42:960][789]LogContentBrowser: Native class hierarchy updated for 'Dissertation' in 0.0007 seconds. Added 6 classes and 2 folders.
+[2020.05.07-05.01.42:964][789]Display: HotReload successful (3 functions remapped  0 scriptstructs remapped)
+[2020.05.07-05.01.43:029][789]LogUObjectHash: Compacting FUObjectHashTables data took   1.86ms
+[2020.05.07-05.01.43:044][789]LogContentBrowser: Native class hierarchy populated in 0.0103 seconds. Added 3023 classes and 722 folders.
+[2020.05.07-05.01.43:044][789]Display: HotReload took 72.5s.
+[2020.05.07-05.05.16:756][428]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2020.05.07-05.09.05:151][247]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2020.05.07-05.13.30:956][327]Candidate modules for hot reload:
+[2020.05.07-05.13.30:956][327]  Dissertation
+[2020.05.07-05.13.30:956][327]Launching UnrealBuildTool... [D:/Program Files/Epic Games/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Dissertation,588 Win64 Development -TargetType=Editor -Project="F:/01 - User Profiles/dudey/Documents/GitHub/Dissertation/Dissertation/Dissertation/Dissertation.uproject" "F:/01 - User Profiles/dudey/Documents/GitHub/Dissertation/Dissertation/Dissertation/Dissertation.uproject"  -IgnoreJunk]
+[2020.05.07-05.13.30:965][327]Warning: Starting HotReload took  0.0s.
+[2020.05.07-05.13.55:529][753]CompilerResultsLog: New page: Compilation - 7 May 2020, 07:13:55
+[2020.05.07-05.13.55:529][753]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (F:\01 - User Profiles\dudey\Documents\GitHub\Dissertation\Dissertation).
+[2020.05.07-05.13.55:529][753]CompilerResultsLog: Parsing headers for DissertationEditor
+[2020.05.07-05.13.55:529][753]CompilerResultsLog:   Running UnrealHeaderTool "F:\01 - User Profiles\dudey\Documents\GitHub\Dissertation\Dissertation\Dissertation\Dissertation.uproject" "F:\01 - User Profiles\dudey\Documents\GitHub\Dissertation\Dissertation\Dissertation\Intermediate\Build\Win64\DissertationEditor\Development\DissertationEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2020.05.07-05.13.55:529][753]CompilerResultsLog: Reflection code generated for DissertationEditor in 9.6568521 seconds
+[2020.05.07-05.13.55:529][753]CompilerResultsLog: Building DissertationEditor...
+[2020.05.07-05.13.55:529][753]CompilerResultsLog: Using Visual Studio 2019 14.25.28612 toolchain (D:\VisualStudio\VC\Tools\MSVC\14.25.28610) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.05.07-05.13.55:529][753]CompilerResultsLog: Building 8 actions with 12 processes...
+[2020.05.07-05.13.55:529][753]CompilerResultsLog:   [1/8] Desert.cpp
+[2020.05.07-05.13.55:529][753]CompilerResultsLog:    F:\01 - User Profiles\dudey\Documents\GitHub\Dissertation\Dissertation\Dissertation\Source\Dissertation\Desert.h(34) : error C2059: syntax error: ';'
+[2020.05.07-05.13.55:529][753]CompilerResultsLog:   [2/8] Desert.gen.cpp
+[2020.05.07-05.13.55:529][753]CompilerResultsLog:    F:\01 - User Profiles\dudey\Documents\GitHub\Dissertation\Dissertation\Dissertation\Source\Dissertation/Desert.h(34) : error C2059: syntax error: ';'
+[2020.05.07-05.13.55:529][753]CompilerResultsLog:   [3/8] DissertationCharacter.gen.cpp
+[2020.05.07-05.13.55:529][753]CompilerResultsLog:    F:\01 - User Profiles\dudey\Documents\GitHub\Dissertation\Dissertation\Dissertation\Source\Dissertation\Desert.h(34) : error C2059: syntax error: ';'
+[2020.05.07-05.13.55:529][753]CompilerResultsLog:   [4/8] DissertationGameMode.cpp
+[2020.05.07-05.13.55:529][753]CompilerResultsLog:    F:\01 - User Profiles\dudey\Documents\GitHub\Dissertation\Dissertation\Dissertation\Source\Dissertation\Desert.h(34) : error C2059: syntax error: ';'
+[2020.05.07-05.13.55:529][753]CompilerResultsLog:   [5/8] DissertationCharacter.cpp
+[2020.05.07-05.13.55:529][753]CompilerResultsLog:    F:\01 - User Profiles\dudey\Documents\GitHub\Dissertation\Dissertation\Dissertation\Source\Dissertation\Desert.h(34) : error C2059: syntax error: ';'
+[2020.05.07-05.13.55:529][753]LogMainFrame: MainFrame: Module compiling took 24.578 seconds
+[2020.05.07-05.13.55:529][753]Warning: HotReload failed, recompile failed
+[2020.05.07-05.14.32:293][161]Candidate modules for hot reload:
+[2020.05.07-05.14.32:293][161]  Dissertation
+[2020.05.07-05.14.32:293][161]Launching UnrealBuildTool... [D:/Program Files/Epic Games/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Dissertation,2248 Win64 Development -TargetType=Editor -Project="F:/01 - User Profiles/dudey/Documents/GitHub/Dissertation/Dissertation/Dissertation/Dissertation.uproject" "F:/01 - User Profiles/dudey/Documents/GitHub/Dissertation/Dissertation/Dissertation/Dissertation.uproject"  -IgnoreJunk]
+[2020.05.07-05.14.32:301][161]Warning: Starting HotReload took  0.0s.
+[2020.05.07-05.15.56:605][279]CompilerResultsLog: New page: Compilation - 7 May 2020, 07:15:56
+[2020.05.07-05.15.56:605][279]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (F:\01 - User Profiles\dudey\Documents\GitHub\Dissertation\Dissertation).
+[2020.05.07-05.15.56:605][279]CompilerResultsLog: Parsing headers for DissertationEditor
+[2020.05.07-05.15.56:605][279]CompilerResultsLog:   Running UnrealHeaderTool "F:\01 - User Profiles\dudey\Documents\GitHub\Dissertation\Dissertation\Dissertation\Dissertation.uproject" "F:\01 - User Profiles\dudey\Documents\GitHub\Dissertation\Dissertation\Dissertation\Intermediate\Build\Win64\DissertationEditor\Development\DissertationEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2020.05.07-05.15.56:605][279]CompilerResultsLog: Reflection code generated for DissertationEditor in 9.9916556 seconds
+[2020.05.07-05.15.56:605][279]CompilerResultsLog: Building DissertationEditor...
+[2020.05.07-05.15.56:605][279]CompilerResultsLog: Using Visual Studio 2019 14.25.28612 toolchain (D:\VisualStudio\VC\Tools\MSVC\14.25.28610) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.05.07-05.15.56:605][279]CompilerResultsLog: Building 8 actions with 12 processes...
+[2020.05.07-05.15.56:605][279]CompilerResultsLog:   [1/8] Desert.gen.cpp
+[2020.05.07-05.15.56:605][279]CompilerResultsLog:   [2/8] Desert.cpp
+[2020.05.07-05.15.56:605][279]CompilerResultsLog:   [3/8] DissertationGameMode.cpp
+[2020.05.07-05.15.56:605][279]CompilerResultsLog:   [4/8] DissertationCharacter.gen.cpp
+[2020.05.07-05.15.56:605][279]CompilerResultsLog:   [5/8] DissertationCharacter.cpp
+[2020.05.07-05.15.56:605][279]CompilerResultsLog:   [6/8] UE4Editor-Dissertation-2248.lib
+[2020.05.07-05.15.56:605][279]CompilerResultsLog:      Creating library F:\01 - User Profiles\dudey\Documents\GitHub\Dissertation\Dissertation\Dissertation\Intermediate\Build\Win64\UE4Editor\Development\Dissertation\UE4Editor-Dissertation-2248.lib and object F:\01 - User Profiles\dudey\Documents\GitHub\Dissertation\Dissertation\Dissertation\Intermediate\Build\Win64\UE4Editor\Development\Dissertation\UE4Editor-Dissertation-2248.exp
+[2020.05.07-05.15.56:605][279]CompilerResultsLog:   [7/8] UE4Editor-Dissertation-2248.dll
+[2020.05.07-05.15.56:605][279]CompilerResultsLog:      Creating library F:\01 - User Profiles\dudey\Documents\GitHub\Dissertation\Dissertation\Dissertation\Intermediate\Build\Win64\UE4Editor\Development\Dissertation\UE4Editor-Dissertation-2248.suppressed.lib and object F:\01 - User Profiles\dudey\Documents\GitHub\Dissertation\Dissertation\Dissertation\Intermediate\Build\Win64\UE4Editor\Development\Dissertation\UE4Editor-Dissertation-2248.suppressed.exp
+[2020.05.07-05.15.56:605][279]CompilerResultsLog:   [8/8] DissertationEditor.target
+[2020.05.07-05.15.56:605][279]CompilerResultsLog: Total time in Parallel executor: 69.38 seconds
+[2020.05.07-05.15.56:605][279]CompilerResultsLog: Total execution time: 84.01 seconds
+[2020.05.07-05.15.56:605][279]LogMainFrame: MainFrame: Module compiling took 84.318 seconds
+[2020.05.07-05.15.56:637][279]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2020.05.07-05.15.56:655][279]LogClass: Could not find existing class Desert in package /Script/Dissertation for HotReload, assuming new class
+[2020.05.07-05.15.56:655][279]LogClass: Function OnOverlapBegin is new.
+[2020.05.07-05.15.56:655][279]LogClass: Function OnOverlapEnd is new.
+[2020.05.07-05.15.56:655][279]LogClass: Could not find existing class DissertationCharacter in package /Script/Dissertation for HotReload, assuming new class
+[2020.05.07-05.15.56:665][279]LogHotReload: Re-instancing Desert after hot-reload.
+[2020.05.07-05.15.56:795][279]LogHotReload: Re-instancing DissertationCharacter after hot-reload.
+[2020.05.07-05.15.57:055][279]LogContentBrowser: Native class hierarchy updated for 'Dissertation' in 0.0007 seconds. Added 6 classes and 2 folders.
+[2020.05.07-05.15.57:058][279]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2020.05.07-05.15.57:129][279]LogUObjectHash: Compacting FUObjectHashTables data took   2.18ms
+[2020.05.07-05.15.57:144][279]LogContentBrowser: Native class hierarchy populated in 0.0103 seconds. Added 3023 classes and 722 folders.
+[2020.05.07-05.15.57:144][279]Display: HotReload took 84.9s.
+[2020.05.07-05.18.33:627][754]Candidate modules for hot reload:
+[2020.05.07-05.18.33:627][754]  Dissertation
+[2020.05.07-05.18.33:627][754]Launching UnrealBuildTool... [D:/Program Files/Epic Games/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Dissertation,8210 Win64 Development -TargetType=Editor -Project="F:/01 - User Profiles/dudey/Documents/GitHub/Dissertation/Dissertation/Dissertation/Dissertation.uproject" "F:/01 - User Profiles/dudey/Documents/GitHub/Dissertation/Dissertation/Dissertation/Dissertation.uproject"  -IgnoreJunk]
+[2020.05.07-05.18.33:635][754]Warning: Starting HotReload took  0.0s.
+[2020.05.07-05.19.20:801][249]CompilerResultsLog: New page: Compilation - 7 May 2020, 07:19:20
+[2020.05.07-05.19.20:801][249]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (F:\01 - User Profiles\dudey\Documents\GitHub\Dissertation\Dissertation).
+[2020.05.07-05.19.20:802][249]CompilerResultsLog: Building DissertationEditor...
+[2020.05.07-05.19.20:802][249]CompilerResultsLog: Using Visual Studio 2019 14.25.28612 toolchain (D:\VisualStudio\VC\Tools\MSVC\14.25.28610) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.05.07-05.19.20:802][249]CompilerResultsLog: Building 4 actions with 12 processes...
+[2020.05.07-05.19.20:802][249]CompilerResultsLog:   [1/4] DissertationCharacter.cpp
+[2020.05.07-05.19.20:802][249]CompilerResultsLog:   [2/4] UE4Editor-Dissertation-8210.lib
+[2020.05.07-05.19.20:802][249]CompilerResultsLog:      Creating library F:\01 - User Profiles\dudey\Documents\GitHub\Dissertation\Dissertation\Dissertation\Intermediate\Build\Win64\UE4Editor\Development\Dissertation\UE4Editor-Dissertation-8210.lib and object F:\01 - User Profiles\dudey\Documents\GitHub\Dissertation\Dissertation\Dissertation\Intermediate\Build\Win64\UE4Editor\Development\Dissertation\UE4Editor-Dissertation-8210.exp
+[2020.05.07-05.19.20:802][249]CompilerResultsLog:   [3/4] UE4Editor-Dissertation-8210.dll
+[2020.05.07-05.19.20:802][249]CompilerResultsLog:      Creating library F:\01 - User Profiles\dudey\Documents\GitHub\Dissertation\Dissertation\Dissertation\Intermediate\Build\Win64\UE4Editor\Development\Dissertation\UE4Editor-Dissertation-8210.suppressed.lib and object F:\01 - User Profiles\dudey\Documents\GitHub\Dissertation\Dissertation\Dissertation\Intermediate\Build\Win64\UE4Editor\Development\Dissertation\UE4Editor-Dissertation-8210.suppressed.exp
+[2020.05.07-05.19.20:802][249]CompilerResultsLog:   [4/4] DissertationEditor.target
+[2020.05.07-05.19.20:802][249]CompilerResultsLog: Total time in Parallel executor: 45.17 seconds
+[2020.05.07-05.19.20:802][249]CompilerResultsLog: Total execution time: 47.02 seconds
+[2020.05.07-05.19.20:802][249]LogMainFrame: MainFrame: Module compiling took 47.180 seconds
+[2020.05.07-05.19.20:833][249]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2020.05.07-05.19.20:857][249]LogHotReload: Re-instancing Desert after hot-reload.
+[2020.05.07-05.19.20:989][249]LogContentBrowser: Native class hierarchy updated for 'Dissertation' in 0.0007 seconds. Added 6 classes and 2 folders.
+[2020.05.07-05.19.20:992][249]Display: HotReload successful (3 functions remapped  0 scriptstructs remapped)
+[2020.05.07-05.19.21:061][249]LogUObjectHash: Compacting FUObjectHashTables data took   1.65ms
+[2020.05.07-05.19.21:074][249]LogContentBrowser: Native class hierarchy populated in 0.0092 seconds. Added 3023 classes and 722 folders.
+[2020.05.07-05.19.21:074][249]Display: HotReload took 47.5s.
+[2020.05.07-05.20.05:537][382]Candidate modules for hot reload:
+[2020.05.07-05.20.05:537][382]  Dissertation
+[2020.05.07-05.20.05:538][382]Launching UnrealBuildTool... [D:/Program Files/Epic Games/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Dissertation,7678 Win64 Development -TargetType=Editor -Project="F:/01 - User Profiles/dudey/Documents/GitHub/Dissertation/Dissertation/Dissertation/Dissertation.uproject" "F:/01 - User Profiles/dudey/Documents/GitHub/Dissertation/Dissertation/Dissertation/Dissertation.uproject"  -IgnoreJunk]
+[2020.05.07-05.20.05:545][382]Warning: Starting HotReload took  0.0s.
+[2020.05.07-05.20.16:862][722]CompilerResultsLog: New page: Compilation - 7 May 2020, 07:20:16
+[2020.05.07-05.20.16:862][722]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (F:\01 - User Profiles\dudey\Documents\GitHub\Dissertation\Dissertation).
+[2020.05.07-05.20.16:862][722]CompilerResultsLog: Building DissertationEditor...
+[2020.05.07-05.20.16:862][722]CompilerResultsLog: Using Visual Studio 2019 14.25.28612 toolchain (D:\VisualStudio\VC\Tools\MSVC\14.25.28610) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.05.07-05.20.16:862][722]CompilerResultsLog: Building 4 actions with 12 processes...
+[2020.05.07-05.20.16:862][722]CompilerResultsLog:   [1/4] DissertationCharacter.cpp
+[2020.05.07-05.20.16:862][722]CompilerResultsLog:    F:\01 - User Profiles\dudey\Documents\GitHub\Dissertation\Dissertation\Dissertation\Source\Dissertation\DissertationCharacter.cpp(204) : error C2146: syntax error: missing ';' before identifier 'DesertBiome'
+[2020.05.07-05.20.16:862][722]CompilerResultsLog:    F:\01 - User Profiles\dudey\Documents\GitHub\Dissertation\Dissertation\Dissertation\Source\Dissertation\DissertationCharacter.cpp(205) : error C2143: syntax error: missing ';' before '}'
+[2020.05.07-05.20.16:862][722]LogMainFrame: MainFrame: Module compiling took 11.330 seconds
+[2020.05.07-05.20.16:862][722]Warning: HotReload failed, recompile failed
+[2020.05.07-05.20.39:449][714]Candidate modules for hot reload:
+[2020.05.07-05.20.39:449][714]  Dissertation
+[2020.05.07-05.20.39:450][714]Launching UnrealBuildTool... [D:/Program Files/Epic Games/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Dissertation,2927 Win64 Development -TargetType=Editor -Project="F:/01 - User Profiles/dudey/Documents/GitHub/Dissertation/Dissertation/Dissertation/Dissertation.uproject" "F:/01 - User Profiles/dudey/Documents/GitHub/Dissertation/Dissertation/Dissertation/Dissertation.uproject"  -IgnoreJunk]
+[2020.05.07-05.20.39:458][714]Warning: Starting HotReload took  0.0s.
+[2020.05.07-05.20.42:463][944]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2020.05.07-05.20.53:384][944]LogSavePackage: Moving 'F:/01 - User Profiles/dudey/Documents/GitHub/Dissertation/Dissertation/Dissertation/Saved/FirstPersonExampleMap62FE63AF4033D1985E670FB567068CDB.tmp' to 'F:/01 - User Profiles/dudey/Documents/GitHub/Dissertation/Dissertation/Dissertation/Content/FirstPersonCPP/Maps/FirstPersonExampleMap.umap'
+[2020.05.07-05.21.08:875][944]LogSavePackage: Moving 'F:/01 - User Profiles/dudey/Documents/GitHub/Dissertation/Dissertation/Dissertation/Saved/FirstPersonExampleMap_BuiltDataDEEF10AD4C7145B330D4AC9CD86DD286.tmp' to 'F:/01 - User Profiles/dudey/Documents/GitHub/Dissertation/Dissertation/Dissertation/Content/FirstPersonCPP/Maps/FirstPersonExampleMap_BuiltData.uasset'
+[2020.05.07-05.21.08:913][944]AssetCheck: New page: Asset Save: multiple assets
+[2020.05.07-05.21.08:913][944]LogContentValidation: Display: Validating World /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap
+[2020.05.07-05.21.08:913][944]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/FirstPersonCPP/Maps/FirstPersonExampleMap_BuiltData.FirstPersonExampleMap_BuiltData
+[2020.05.07-05.21.08:919][945]CompilerResultsLog: New page: Compilation - 7 May 2020, 07:21:08
+[2020.05.07-05.21.08:919][945]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (F:\01 - User Profiles\dudey\Documents\GitHub\Dissertation\Dissertation).
+[2020.05.07-05.21.08:919][945]CompilerResultsLog: Building DissertationEditor...
+[2020.05.07-05.21.08:919][945]CompilerResultsLog: Using Visual Studio 2019 14.25.28612 toolchain (D:\VisualStudio\VC\Tools\MSVC\14.25.28610) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.05.07-05.21.08:919][945]CompilerResultsLog: Building 4 actions with 12 processes...
+[2020.05.07-05.21.08:919][945]CompilerResultsLog:   [1/4] DissertationCharacter.cpp
+[2020.05.07-05.21.08:919][945]CompilerResultsLog:    F:\01 - User Profiles\dudey\Documents\GitHub\Dissertation\Dissertation\Dissertation\Source\Dissertation\DissertationCharacter.cpp(204) : error C2146: syntax error: missing ';' before identifier 'DesertBiome'
+[2020.05.07-05.21.08:919][945]LogMainFrame: MainFrame: Module compiling took 29.475 seconds
+[2020.05.07-05.21.08:919][945]Warning: HotReload failed, recompile failed
+[2020.05.07-05.21.42:998][515]Candidate modules for hot reload:
+[2020.05.07-05.21.42:998][515]  Dissertation
+[2020.05.07-05.21.42:998][515]Launching UnrealBuildTool... [D:/Program Files/Epic Games/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Dissertation,2178 Win64 Development -TargetType=Editor -Project="F:/01 - User Profiles/dudey/Documents/GitHub/Dissertation/Dissertation/Dissertation/Dissertation.uproject" "F:/01 - User Profiles/dudey/Documents/GitHub/Dissertation/Dissertation/Dissertation/Dissertation.uproject"  -IgnoreJunk]
+[2020.05.07-05.21.43:006][515]Warning: Starting HotReload took  0.0s.
+[2020.05.07-05.22.43:932][769]CompilerResultsLog: New page: Compilation - 7 May 2020, 07:22:43
+[2020.05.07-05.22.43:932][769]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (F:\01 - User Profiles\dudey\Documents\GitHub\Dissertation\Dissertation).
+[2020.05.07-05.22.43:932][769]CompilerResultsLog: Building DissertationEditor...
+[2020.05.07-05.22.43:932][769]CompilerResultsLog: Using Visual Studio 2019 14.25.28612 toolchain (D:\VisualStudio\VC\Tools\MSVC\14.25.28610) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.05.07-05.22.43:932][769]CompilerResultsLog: Building 4 actions with 12 processes...
+[2020.05.07-05.22.43:932][769]CompilerResultsLog:   [1/4] DissertationCharacter.cpp
+[2020.05.07-05.22.43:932][769]CompilerResultsLog:   [2/4] UE4Editor-Dissertation-2178.lib
+[2020.05.07-05.22.43:932][769]CompilerResultsLog:      Creating library F:\01 - User Profiles\dudey\Documents\GitHub\Dissertation\Dissertation\Dissertation\Intermediate\Build\Win64\UE4Editor\Development\Dissertation\UE4Editor-Dissertation-2178.lib and object F:\01 - User Profiles\dudey\Documents\GitHub\Dissertation\Dissertation\Dissertation\Intermediate\Build\Win64\UE4Editor\Development\Dissertation\UE4Editor-Dissertation-2178.exp
+[2020.05.07-05.22.43:932][769]CompilerResultsLog:   [3/4] UE4Editor-Dissertation-2178.dll
+[2020.05.07-05.22.43:932][769]CompilerResultsLog:      Creating library F:\01 - User Profiles\dudey\Documents\GitHub\Dissertation\Dissertation\Dissertation\Intermediate\Build\Win64\UE4Editor\Development\Dissertation\UE4Editor-Dissertation-2178.suppressed.lib and object F:\01 - User Profiles\dudey\Documents\GitHub\Dissertation\Dissertation\Dissertation\Intermediate\Build\Win64\UE4Editor\Development\Dissertation\UE4Editor-Dissertation-2178.suppressed.exp
+[2020.05.07-05.22.43:932][769]CompilerResultsLog:   [4/4] DissertationEditor.target
+[2020.05.07-05.22.43:932][769]CompilerResultsLog: Total time in Parallel executor: 58.42 seconds
+[2020.05.07-05.22.43:932][769]CompilerResultsLog: Total execution time: 60.83 seconds
+[2020.05.07-05.22.43:932][769]LogMainFrame: MainFrame: Module compiling took 60.939 seconds
+[2020.05.07-05.22.43:967][769]LogUObjectHash: Compacting FUObjectHashTables data took   1.84ms
+[2020.05.07-05.22.43:995][769]LogHotReload: Re-instancing Desert after hot-reload.
+[2020.05.07-05.22.44:124][769]LogContentBrowser: Native class hierarchy updated for 'Dissertation' in 0.0008 seconds. Added 6 classes and 2 folders.
+[2020.05.07-05.22.44:127][769]Display: HotReload successful (3 functions remapped  0 scriptstructs remapped)
+[2020.05.07-05.22.44:194][769]LogUObjectHash: Compacting FUObjectHashTables data took   1.61ms
+[2020.05.07-05.22.44:207][769]LogContentBrowser: Native class hierarchy populated in 0.0094 seconds. Added 3023 classes and 722 folders.
+[2020.05.07-05.22.44:207][769]Display: HotReload took 61.2s.
+[2020.05.07-05.26.57:446][594]LogTemp: Repeating last play command: Selected Viewport
+[2020.05.07-05.26.57:479][594]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2020.05.07-05.26.57:479][594]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.05.07-05.26.57:479][594]PIE: New page: PIE session: FirstPersonExampleMap (7 May 2020, 07:26:57)
+[2020.05.07-05.26.57:479][594]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2020.05.07-05.26.57:490][594]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010718s)
+[2020.05.07-05.26.57:491][594]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2020.05.07-05.26.57:491][594]LogPlayLevel: PIE: World Init took: (0.001097s)
+[2020.05.07-05.26.57:491][594]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.011957s)
+[2020.05.07-05.26.57:525][594]LogUObjectHash: Compacting FUObjectHashTables data took   1.48ms
+[2020.05.07-05.26.57:527][594]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.05.07-05.26.57:527][594]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.05.07-05.26.57:527][594]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.05.07-05.26.57:527][594]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.05.07-05.26.57:527][594]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.05.07-05.26.57:527][594]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.05.07-05.26.57:527][594]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.05.07-05.26.57:527][594]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.05.07-05.26.57:527][594]LogAudio: Display: Using built-in audio occlusion.
+[2020.05.07-05.26.57:527][594]LogAudioMixer: Display: Initializing audio mixer.
+[2020.05.07-05.26.57:602][594]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.05.07-05.26.57:602][594]LogAudioMixer: Display: Name: Speakers (Realtek High Definition Audio)
+[2020.05.07-05.26.57:602][594]LogAudioMixer: Display: Is Default: Yes
+[2020.05.07-05.26.57:602][594]LogAudioMixer: Display: Sample Rate: 48000
+[2020.05.07-05.26.57:603][594]LogAudioMixer: Display: Channel Count Used: 2
+[2020.05.07-05.26.57:603][594]LogAudioMixer: Display: Device Channel Count: 2
+[2020.05.07-05.26.57:603][594]LogAudioMixer: Display: Channel Order:
+[2020.05.07-05.26.57:603][594]LogAudioMixer: Display: 0: FrontLeft
+[2020.05.07-05.26.57:603][594]LogAudioMixer: Display: 1: FrontRight
+[2020.05.07-05.26.57:621][594]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2020.05.07-05.26.57:623][594]LogInit: FAudioDevice initialized.
+[2020.05.07-05.26.57:634][594]LogLoad: Game class is 'DissertationGameMode'
+[2020.05.07-05.26.57:635][594]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2020.05.07-06.26.57
+[2020.05.07-05.26.57:636][594]LogWorld: Bringing up level for play took: 0.001613
+[2020.05.07-05.26.57:636][594]LogOnline: OSS: Creating online subsystem instance for: :Context_7
+[2020.05.07-05.26.57:638][594]PIE: Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap -0.369
+[2020.05.07-05.26.57:638][594]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
