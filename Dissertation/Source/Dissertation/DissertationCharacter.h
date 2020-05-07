@@ -85,6 +85,8 @@ protected:
 	/** Fires a projectile. */
 	void OnFire();
 
+	void WeaponDurability();
+
 	/** Resets HMD orientation and position in VR. */
 	void OnResetVR();
 
@@ -119,6 +121,10 @@ protected:
 	void TouchUpdate(const ETouchIndex::Type FingerIndex, const FVector Location);
 	TouchData	TouchItem;
 	
+	float WeaponHealth;
+	float WeaponDegrade;
+	float WeaponTotal;
+
 protected:
 	// APawn interface
 	virtual void SetupPlayerInputComponent(UInputComponent* InputComponent) override;

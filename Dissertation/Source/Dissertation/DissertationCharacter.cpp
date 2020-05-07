@@ -11,6 +11,7 @@
 #include "Kismet/GameplayStatics.h"
 #include "MotionControllerComponent.h"
 #include "XRMotionControllerBase.h" // for FXRMotionControllerBase::RightHandSourceId
+#include "Engine/Engine.h"
 
 DEFINE_LOG_CATEGORY_STATIC(LogFPChar, Warning, All);
 
@@ -82,6 +83,8 @@ ADissertationCharacter::ADissertationCharacter()
 
 	// Uncomment the following line to turn motion controllers on by default:
 	//bUsingMotionControllers = true;
+
+	WeaponHealth = 10.0f;
 }
 
 void ADissertationCharacter::BeginPlay()
@@ -118,7 +121,7 @@ void ADissertationCharacter::SetupPlayerInputComponent(class UInputComponent* Pl
 	PlayerInputComponent->BindAction("Jump", IE_Released, this, &ACharacter::StopJumping);
 
 	// Bind fire event
-	PlayerInputComponent->BindAction("Fire", IE_Pressed, this, &ADissertationCharacter::OnFire);
+	PlayerInputComponent->BindAction("Fire", IE_Pressed, this, &ADissertationCharacter::WeaponDurability);
 
 	// Enable touchscreen input
 	EnableTouchscreenMovement(PlayerInputComponent);
@@ -138,9 +141,11 @@ void ADissertationCharacter::SetupPlayerInputComponent(class UInputComponent* Pl
 	PlayerInputComponent->BindAxis("LookUpRate", this, &ADissertationCharacter::LookUpAtRate);
 }
 
+
+
 void ADissertationCharacter::OnFire()
 {
-	// try and fire a projectile
+		// try and fire a projectile
 	if (ProjectileClass != NULL)
 	{
 		UWorld* const World = GetWorld();
@@ -155,26 +160,26 @@ void ADissertationCharacter::OnFire()
 			else
 			{
 				const FRotator SpawnRotation = GetControlRotation();
-				// MuzzleOffset is in camera space, so transform it to world space before offsetting from the character location to find the final muzzle position
+					// MuzzleOffset is in camera space, so transform it to world space before offsetting from the character location to find the final muzzle position
 				const FVector SpawnLocation = ((FP_MuzzleLocation != nullptr) ? FP_MuzzleLocation->GetComponentLocation() : GetActorLocation()) + SpawnRotation.RotateVector(GunOffset);
 
-				//Set Spawn Collision Handling Override
+					//Set Spawn Collision Handling Override
 				FActorSpawnParameters ActorSpawnParams;
 				ActorSpawnParams.SpawnCollisionHandlingOverride = ESpawnActorCollisionHandlingMethod::AdjustIfPossibleButDontSpawnIfColliding;
 
-				// spawn the projectile at the muzzle
-				World->SpawnActor<ADissertationProjectile>(ProjectileClass, SpawnLocation, SpawnRotation, ActorSpawnParams);
+					// spawn the projectile at the muzzle
+
 			}
 		}
 	}
 
-	// try and play the sound if specified
+		// try and play the sound if specified
 	if (FireSound != NULL)
 	{
-		UGameplayStatics::PlaySoundAtLocation(this, FireSound, GetActorLocation());
+			UGameplayStatics::PlaySoundAtLocation(this, FireSound, GetActorLocation());
 	}
 
-	// try and play a firing animation if specified
+		// try and play a firing animation if specified
 	if (FireAnimation != NULL)
 	{
 		// Get the animation object for the arms mesh
@@ -184,6 +189,22 @@ void ADissertationCharacter::OnFire()
 			AnimInstance->Montage_Play(FireAnimation, 1.f);
 		}
 	}
+	FString Debug = FString::Printf(TEXT("WeaponHealth"), *FString::SanitizeFloat(WeaponHealth));
+	GEngine->AddOnScreenDebugMessage(1, 0.0f, FColor::Green, Debug);
+}
+
+void ADissertationCharacter::WeaponDurability()
+{
+	if (WeaponHealth >= 0.0f)
+	{
+		OnFire();
+		WeaponHealth--;
+	}
+	else
+	{
+		
+	}
+	
 }
 
 void ADissertationCharacter::OnResetVR()
