@@ -81,14 +81,18 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Gameplay)
 	uint32 bUsingMotionControllers : 1;
 
-	ADesert * DesertBiome;
+	float Neutral();
+
+	float Desert();
+
+	float Snow();
+
+	float Water();
 
 protected:
 	
 	/** Fires a projectile. */
 	void OnFire();
-
-	void WeaponDurability();
 
 	/** Resets HMD orientation and position in VR. */
 	void OnResetVR();
@@ -124,9 +128,9 @@ protected:
 	void TouchUpdate(const ETouchIndex::Type FingerIndex, const FVector Location);
 	TouchData	TouchItem;
 	
-	float WeaponHealth;
-	float WeaponDegrade;
-	float WeaponTotal;
+	float WeaponHealth = 9.0f;
+	float WeaponDegrade = 1.0f;
+	float WeaponTotal = 10.0f;
 
 protected:
 	// APawn interface

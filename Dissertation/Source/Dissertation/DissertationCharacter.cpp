@@ -14,6 +14,7 @@
 #include "Engine/Engine.h"
 
 
+
 DEFINE_LOG_CATEGORY_STATIC(LogFPChar, Warning, All);
 
 //////////////////////////////////////////////////////////////////////////
@@ -85,7 +86,7 @@ ADissertationCharacter::ADissertationCharacter()
 	// Uncomment the following line to turn motion controllers on by default:
 	//bUsingMotionControllers = true;
 
-	WeaponHealth = 10.0f;
+	WeaponTotal = 10.0f;
 }
 
 void ADissertationCharacter::BeginPlay()
@@ -96,7 +97,8 @@ void ADissertationCharacter::BeginPlay()
 	//Attach gun mesh component to Skeleton, doing it here because the skeleton is not yet created in the constructor
 	FP_Gun->AttachToComponent(Mesh1P, FAttachmentTransformRules(EAttachmentRule::SnapToTarget, true), TEXT("GripPoint"));
 
-	DesertBiome = Cast<ADesert>(UGameplayStatics::GetPlayerCharacter(GetWorld(), 0));
+	FString Debug = FString::Printf(TEXT("WeaponTotal = %s"), *FString::SanitizeFloat(WeaponTotal));
+	GEngine->AddOnScreenDebugMessage(1, 0.0f, FColor::Green, Debug);
 
 	// Show or hide the two versions of the gun based on whether or not we're using motion controllers.
 	if (bUsingMotionControllers)
@@ -124,7 +126,7 @@ void ADissertationCharacter::SetupPlayerInputComponent(class UInputComponent* Pl
 	PlayerInputComponent->BindAction("Jump", IE_Released, this, &ACharacter::StopJumping);
 
 	// Bind fire event
-	PlayerInputComponent->BindAction("Fire", IE_Pressed, this, &ADissertationCharacter::WeaponDurability);
+	PlayerInputComponent->BindAction("Fire", IE_Pressed, this, &ADissertationCharacter::OnFire);
 
 	// Enable touchscreen input
 	EnableTouchscreenMovement(PlayerInputComponent);
@@ -148,66 +150,78 @@ void ADissertationCharacter::SetupPlayerInputComponent(class UInputComponent* Pl
 
 void ADissertationCharacter::OnFire()
 {
+
 		// try and fire a projectile
-	if (ProjectileClass != NULL)
+	while (WeaponTotal > 0)
 	{
-		UWorld* const World = GetWorld();
-		if (World != NULL)
+
+		if (ProjectileClass != NULL)
 		{
-			if (bUsingMotionControllers)
+			UWorld* const World = GetWorld();
+			if (World != NULL)
 			{
-				const FRotator SpawnRotation = VR_MuzzleLocation->GetComponentRotation();
-				const FVector SpawnLocation = VR_MuzzleLocation->GetComponentLocation();
-				World->SpawnActor<ADissertationProjectile>(ProjectileClass, SpawnLocation, SpawnRotation);
-			}
-			else
-			{
-				const FRotator SpawnRotation = GetControlRotation();
+				if (bUsingMotionControllers)
+				{
+					const FRotator SpawnRotation = VR_MuzzleLocation->GetComponentRotation();
+					const FVector SpawnLocation = VR_MuzzleLocation->GetComponentLocation();
+					World->SpawnActor<ADissertationProjectile>(ProjectileClass, SpawnLocation, SpawnRotation);
+				}
+				else
+				{
+					const FRotator SpawnRotation = GetControlRotation();
 					// MuzzleOffset is in camera space, so transform it to world space before offsetting from the character location to find the final muzzle position
-				const FVector SpawnLocation = ((FP_MuzzleLocation != nullptr) ? FP_MuzzleLocation->GetComponentLocation() : GetActorLocation()) + SpawnRotation.RotateVector(GunOffset);
+					const FVector SpawnLocation = ((FP_MuzzleLocation != nullptr) ? FP_MuzzleLocation->GetComponentLocation() : GetActorLocation()) + SpawnRotation.RotateVector(GunOffset);
 
 					//Set Spawn Collision Handling Override
-				FActorSpawnParameters ActorSpawnParams;
-				ActorSpawnParams.SpawnCollisionHandlingOverride = ESpawnActorCollisionHandlingMethod::AdjustIfPossibleButDontSpawnIfColliding;
+					FActorSpawnParameters ActorSpawnParams;
+					ActorSpawnParams.SpawnCollisionHandlingOverride = ESpawnActorCollisionHandlingMethod::AdjustIfPossibleButDontSpawnIfColliding;
 
 					// spawn the projectile at the muzzle
 
+				}
 			}
 		}
-	}
 
 		// try and play the sound if specified
-	if (FireSound != NULL)
-	{
+		if (FireSound != NULL)
+		{
 			UGameplayStatics::PlaySoundAtLocation(this, FireSound, GetActorLocation());
-	}
+		}
 
 		// try and play a firing animation if specified
-	if (FireAnimation != NULL)
-	{
-		// Get the animation object for the arms mesh
-		UAnimInstance* AnimInstance = Mesh1P->GetAnimInstance();
-		if (AnimInstance != NULL)
+		if (FireAnimation != NULL)
 		{
-			AnimInstance->Montage_Play(FireAnimation, 1.f);
+			// Get the animation object for the arms mesh
+			UAnimInstance* AnimInstance = Mesh1P->GetAnimInstance();
+			if (AnimInstance != NULL)
+			{
+				AnimInstance->Montage_Play(FireAnimation, 1.f);
+			}
 		}
+
+
+		WeaponTotal = WeaponHealth - WeaponDegrade;
 	}
-	FString Debug = FString::Printf(TEXT("WeaponHealth"), *FString::SanitizeFloat(WeaponHealth));
-	GEngine->AddOnScreenDebugMessage(1, 0.0f, FColor::Green, Debug);
 }
 
-void ADissertationCharacter::WeaponDurability()
+float ADissertationCharacter::Neutral()
 {
-	if (WeaponHealth >= 0.0f)
-	{
-		OnFire();
-		WeaponHealth = (WeaponHealth - DesertBiome->WeaponVariable);
-	}
-	else
-	{
-		
-	}
-	
+	return WeaponDegrade = 1.0f;
+}
+
+float ADissertationCharacter::Desert()
+{
+	return WeaponDegrade = 1.50f;
+}
+
+float ADissertationCharacter::Snow()
+{
+	return WeaponDegrade = 1.25f;;
+}
+
+float ADissertationCharacter::Water()
+{
+	return WeaponDegrade = 1.75f;
 }
 
 void ADissertationCharacter::OnResetVR()
