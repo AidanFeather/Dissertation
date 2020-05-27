@@ -128,7 +128,7 @@ protected:
 	void TouchUpdate(const ETouchIndex::Type FingerIndex, const FVector Location);
 	TouchData	TouchItem;
 	
-	float WeaponHealth = 9.0f;
+	float WeaponHealth = 1.0f;
 	float WeaponDegrade = 1.0f;
 	float WeaponTotal = 10.0f;
 

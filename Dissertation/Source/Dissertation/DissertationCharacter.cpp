@@ -152,7 +152,7 @@ void ADissertationCharacter::OnFire()
 {
 
 		// try and fire a projectile
-	while (WeaponTotal > 0)
+	if (WeaponTotal > 0)
 	{
 
 		if (ProjectileClass != NULL)
@@ -200,7 +200,11 @@ void ADissertationCharacter::OnFire()
 		}
 
 
-		WeaponTotal = WeaponHealth - WeaponDegrade;
+		WeaponTotal--;
+	} 
+	else
+	{
+
 	}
 }
 
