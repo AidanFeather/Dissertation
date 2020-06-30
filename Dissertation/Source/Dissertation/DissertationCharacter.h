@@ -4,6 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "Desert.h"
+#include "Components/TimelineComponent.h"
 #include "GameFramework/Character.h"
 #include "DissertationCharacter.generated.h"
 
@@ -52,6 +53,8 @@ public:
 protected:
 	virtual void BeginPlay();
 
+	virtual void Tick(float DeltaTime) override;
+
 public:
 	/** Base turn rate, in deg/sec. Other scaling may affect final turn rate. */
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category=Camera)
@@ -81,13 +84,34 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Gameplay)
 	uint32 bUsingMotionControllers : 1;
 
-	float Neutral();
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Health")
+		float FullHealth;
 
-	float Desert();
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Health")
+		float HealthPercentage;
 
-	float Snow();
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Durability")
+		float WeaponHealth;
 
-	float Water();
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Durability")
+		float WeaponPercentage;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Durability")
+		float PreviousWeaponH;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Durability")
+		float WeaponVal;
+
+	UPROPERTY(EditAnywhere, Category = "Durability")
+		FTimeline MyTimeline;
+
+	UPROPERTY(EditAnywhere, Category = "Durability")
+		FTimerHandle MemberTimerHandle;
+
+	float TimeLineValue;
+	float bCanFire;
+
+
 
 protected:
 	
@@ -128,9 +152,9 @@ protected:
 	void TouchUpdate(const ETouchIndex::Type FingerIndex, const FVector Location);
 	TouchData	TouchItem;
 	
-	float WeaponHealth = 1.0f;
-	float WeaponDegrade = 1.0f;
-	float WeaponTotal = 10.0f;
+	//float WeaponHealth = 1.0f;
+	//float WeaponDegrade = 1.0f;
+	//float WeaponTotal = 10.0f;
 
 protected:
 	// APawn interface
@@ -144,6 +168,11 @@ protected:
 	 * @returns true if touch controls were enabled.
 	 */
 	bool EnableTouchscreenMovement(UInputComponent* InputComponent);
+
+private:
+
+	UPROPERTY(EditAnywhere, Category = "Weapon Health")
+		float WeaponDur;
 
 public:
 	/** Returns Mesh1P subobject **/

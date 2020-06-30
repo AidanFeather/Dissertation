@@ -36,7 +36,7 @@ void ADesert::OnOverlapBegin(class AActor* Overlapped, class AActor* Other)
 			GEngine->AddOnScreenDebugMessage(-1, 1.5, FColor::Green, TEXT("Overlap Begin"));
 			GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Magenta, FString::Printf(TEXT("Overlapped Actor = %s"), *Overlapped->GetName()));
 			OverlapIsTrue = true;
-			Character->Desert();
+
 		}
 	}
 }
@@ -50,7 +50,7 @@ void ADesert::OnOverlapEnd(class AActor* Overlapped, class AActor* Other)
 			GEngine->AddOnScreenDebugMessage(-1, 1.5, FColor::Green, TEXT("Overlap Ended"));
 			GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Magenta, FString::Printf(TEXT("%s has left the Trigger Box"), *Other->GetName()));
 			OverlapIsTrue = false;
-			Character->Neutral();
+	
 		}
 	}
 
