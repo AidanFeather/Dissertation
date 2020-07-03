@@ -90,6 +90,12 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Health")
 		float HealthPercentage;
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Health")
+		float Health;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Durability")
+		float Durability;
+
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Durability")
 		float WeaponHealth;
 
@@ -102,16 +108,61 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Durability")
 		float WeaponVal;
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Durability")
+		UCurveFloat* WeaponC;
+
 	UPROPERTY(EditAnywhere, Category = "Durability")
 		FTimeline MyTimeline;
 
 	UPROPERTY(EditAnywhere, Category = "Durability")
 		FTimerHandle MemberTimerHandle;
 
+
+	UPROPERTY(EditAnywhere, Category = "Durability")
+		FTimerHandle DurabilityTimerHandle;
+
+	float Curve;
 	float TimeLineValue;
 	float bCanFire;
 
+	UFUNCTION(BlueprintPure, Category = "Health")
+		float GetHealth();
 
+	UFUNCTION(BlueprintCallable, Category = "Health")
+		void UpdateHealth(float HealthChange);
+
+	UFUNCTION(BlueprintPure, Category = "Health")
+		FText GetHealthIntText();
+	 
+	UFUNCTION(BlueprintPure, Category = "Durability")
+		float GetWeapon();
+
+	UFUNCTION(BlueprintPure, Category = "Durability")
+		FText GetWeaponIntText();
+
+	UFUNCTION()
+		void DamageTimer();
+
+	UFUNCTION()
+		void SetDamageState();
+
+	UFUNCTION()
+		void SetDurValue();
+
+	UFUNCTION()
+		void SetDurState();
+
+	UFUNCTION()
+		void SetDurChange(float Dur);
+
+	UFUNCTION()
+		void UpdateDur();
+
+	UPROPERTY(EditAnywhere, Category = "Durability")
+		class UMaterialInterface* GunMaterialDefault;
+
+	UFUNCTION()
+		void RecieveDamage(float Damage, const UDamageType* DamageType, FVector HitLocation, FVector HitNormal, UPrimitiveComponent* HitComponent, FName BoneName, FVector ShotFromDirection, AController* Instigated, AActor* DamageCause, const FHitResult & HitInfo);
 
 protected:
 	

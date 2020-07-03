@@ -13,7 +13,8 @@
 #include "MotionControllerComponent.h"
 #include "XRMotionControllerBase.h" // for FXRMotionControllerBase::RightHandSourceId
 #include "Engine/Engine.h"
-
+#include "Kismet/KismetMathLibrary.h"
+#include "TimerManager.h"
 
 
 DEFINE_LOG_CATEGORY_STATIC(LogFPChar, Warning, All);
@@ -95,6 +96,30 @@ void ADissertationCharacter::BeginPlay()
 	// Call the base class  
 	Super::BeginPlay();
 
+	FullHealth = 1000.0f;
+	Health = FullHealth;
+	HealthPercentage = 1.0f;
+	bCanBeDamaged = true;
+
+	WeaponHealth = 100.0f;
+	Durability = WeaponHealth;
+	WeaponPercentage = 1.0f;
+	PreviousWeaponH = WeaponPercentage;
+	WeaponVal = 0.01f;
+	bCanFire = true;
+
+	if (WeaponC)
+	{
+		FOnTimelineFloat TimelineCallback;
+		FOnTimelineEventStatic TimelineFinishedCallback;
+
+		TimelineCallback.BindUFunction(this, FName("SetDurValue"));
+		TimelineFinishedCallback.BindUFunction(this, FName("SetDurState"));
+		
+		MyTimeline.AddInterpFloat(WeaponC, TimelineCallback);
+		MyTimeline.SetTimelineFinishedFunc(TimelineFinishedCallback);
+	}
+
 	//Attach gun mesh component to Skeleton, doing it here because the skeleton is not yet created in the constructor
 	FP_Gun->AttachToComponent(Mesh1P, FAttachmentTransformRules(EAttachmentRule::SnapToTarget, true), TEXT("GripPoint"));
 
@@ -113,6 +138,15 @@ void ADissertationCharacter::BeginPlay()
 		Mesh1P->SetHiddenInGame(false, true);
 	}
 }
+
+void ADissertationCharacter::Tick(float DeltaTime)
+{
+	Super::Tick(DeltaTime);
+
+	MyTimeline.TickTimeline(DeltaTime);
+}
+
+
 
 //////////////////////////////////////////////////////////////////////////
 // Input
@@ -151,9 +185,8 @@ void ADissertationCharacter::SetupPlayerInputComponent(class UInputComponent* Pl
 
 void ADissertationCharacter::OnFire()
 {
-
-		// try and fire a projectile
-	if (ProjectileClass != NULL)
+	// try and fire a projectile
+	if (ProjectileClass != NULL && !FMath::IsNearlyZero(Durability, 0.001f) && bCanFire)
 	{
 		UWorld* const World = GetWorld();
 		if (World != NULL)
@@ -175,25 +208,31 @@ void ADissertationCharacter::OnFire()
 				ActorSpawnParams.SpawnCollisionHandlingOverride = ESpawnActorCollisionHandlingMethod::AdjustIfPossibleButDontSpawnIfColliding;
 				// spawn the projectile at the muzzle
 
-				}
+
 			}
 		}
 
 		// try and play the sound if specified
-	if (FireSound != NULL)
-	{
-		UGameplayStatics::PlaySoundAtLocation(this, FireSound, GetActorLocation());
-	}
-
-	// try and play a firing animation if specified
-	if (FireAnimation != NULL)
-	{
-		// Get the animation object for the arms mesh
-		UAnimInstance* AnimInstance = Mesh1P->GetAnimInstance();
-		if (AnimInstance != NULL)
+		if (FireSound != NULL)
 		{
-			AnimInstance->Montage_Play(FireAnimation, 1.f);
+			UGameplayStatics::PlaySoundAtLocation(this, FireSound, GetActorLocation());
 		}
+
+		// try and play a firing animation if specified
+		if (FireAnimation != NULL)
+		{
+			// Get the animation object for the arms mesh
+			UAnimInstance* AnimInstance = Mesh1P->GetAnimInstance();
+			if (AnimInstance != NULL)
+			{
+				AnimInstance->Montage_Play(FireAnimation, 1.f);
+			}
+		}
+
+		MyTimeline.Stop();
+		GetWorldTimerManager().ClearTimer(DurabilityTimerHandle);
+		SetDurChange(-20.0f);
+		GetWorldTimerManager().SetTimer(DurabilityTimerHandle, this, &ADissertationCharacter::UpdateDur, 10.0f, false);
 	}
 }
 
@@ -309,4 +348,94 @@ bool ADissertationCharacter::EnableTouchscreenMovement(class UInputComponent* Pl
 	}
 	
 	return false;
+}
+
+float ADissertationCharacter::GetHealth()
+{
+	return HealthPercentage;
+}
+
+float ADissertationCharacter::GetWeapon()
+{
+	return WeaponPercentage;
+}
+
+FText ADissertationCharacter::GetHealthIntText()
+{
+	int32 Hea = FMath::RoundHalfFromZero(HealthPercentage * 100);
+	FString HS = FString::FromInt(Hea);
+	FString HealthHUD = HS + FString(TEXT("%"));
+	FText HTEXT = FText::FromString(HealthHUD);
+	return HTEXT;
+}
+
+FText ADissertationCharacter::GetWeaponIntText()
+{
+	int32 Wea = FMath::RoundHalfFromZero(WeaponPercentage * 100);
+	FString WS = FString::FromInt(Wea);
+	FString FWS = FString::FromInt(WeaponHealth);
+	FString WeaponHUD = WS + FString(TEXT("%"));
+	FText WTEXT = FText::FromString(WeaponHUD);
+	return WTEXT;
+}
+
+void ADissertationCharacter::SetDamageState()
+{
+	bCanBeDamaged = true;
+}
+
+void ADissertationCharacter::DamageTimer()
+{
+	GetWorldTimerManager().SetTimer(MemberTimerHandle, this, &ADissertationCharacter::SetDamageState, 2.0f, false);
+}
+
+void ADissertationCharacter::SetDurValue()
+{
+	TimeLineValue = MyTimeline.GetPlaybackPosition();
+	Curve = PreviousWeaponH + WeaponVal * WeaponC->GetFloatValue(TimeLineValue);
+	Durability = Curve * FullHealth;
+	Durability = FMath::Clamp(Durability, 0.0f, WeaponHealth);
+	WeaponPercentage = Curve;
+	WeaponPercentage = FMath::Clamp(Curve, 0.0f, 1.0f);
+}
+
+void ADissertationCharacter::SetDurState()
+{
+	bCanFire = true;
+	WeaponVal = 0.0f;
+	if (GunMaterialDefault)
+	{
+		FP_Gun->SetMaterial(0, GunMaterialDefault);
+	}
+}
+
+void  ADissertationCharacter::RecieveDamage(float Damage, const UDamageType* DamageType, FVector HitLocation, FVector HitNormal, UPrimitiveComponent* HitComponent, FName BoneName, FVector ShotFromDirection, AController* Instigated, AActor* DamageCause, const FHitResult& HitInfo)
+{
+	bCanBeDamaged = false;
+	UpdateHealth(-Damage);
+	DamageTimer();
+}
+
+void ADissertationCharacter::UpdateHealth(float Change)
+{
+	Health += Change;
+	Health = FMath::Clamp(Health, 0.0f, FullHealth);
+	HealthPercentage = Health / FullHealth;
+}
+
+void ADissertationCharacter::UpdateDur()
+{
+	PreviousWeaponH = WeaponPercentage;
+	WeaponPercentage = Durability / WeaponHealth;
+	WeaponVal = 1.0f;
+	MyTimeline.PlayFromStart();
+
+}
+
+void ADissertationCharacter::SetDurChange(float C)
+{
+	bCanFire = false;
+	PreviousWeaponH = WeaponPercentage;
+	WeaponVal = (C / Durability);
+	MyTimeline.PlayFromStart();
 }

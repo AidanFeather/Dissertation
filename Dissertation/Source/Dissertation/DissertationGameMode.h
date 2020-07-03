@@ -2,9 +2,18 @@
 
 #pragma once
 
-#include "CoreMinimal.h"
 #include "GameFramework/GameModeBase.h"
 #include "DissertationGameMode.generated.h"
+
+class ADissertationCharacter;
+
+UENUM()
+enum class EGamePlayState
+{
+	EPlaying,
+	EGameOver,
+	EUnknown
+};
 
 UCLASS(minimalapi)
 class ADissertationGameMode : public AGameModeBase
@@ -13,6 +22,23 @@ class ADissertationGameMode : public AGameModeBase
 
 public:
 	ADissertationGameMode();
+
+	virtual void BeginPlay() override;
+
+	virtual void Tick(float DeltaTime) override;
+
+	ADissertationCharacter* MyPlayer;
+
+	UFUNCTION(BlueprintPure, Category = "Health")
+		EGamePlayState GetCurrentState() const;
+
+	void Current(EGamePlayState New);
+
+private:
+
+	EGamePlayState CState;
+
+	void HandleNewState(EGamePlayState NS);
 };
 
 
